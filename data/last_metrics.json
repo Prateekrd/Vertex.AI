@@ -1,0 +1,11 @@
+{
+  "precision": 0.7532894736842105,
+  "recall": 0.6542857142857142,
+  "f1_score": 0.7003058103975535,
+  "true_positive_pairs": 687,
+  "false_positive_pairs": 225,
+  "false_negative_pairs": 363,
+  "n_clusters_predicted": 8,
+  "n_clusters_ground_truth": 10,
+  "n_singletons": 0
+}

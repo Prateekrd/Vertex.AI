@@ -1,0 +1,2277 @@
+[
+  {
+    "cluster_id": "cluster_cpse_a_MATCPSE_A00001",
+    "representative": "stainless steel pipe 10mm x 5m",
+    "member_ids": [
+      "cpse_a_MATCPSE_A00001",
+      "cpse_a_MATCPSE_A00002",
+      "cpse_a_MATCPSE_A00003",
+      "cpse_a_MATCPSE_A00004",
+      "cpse_a_MATCPSE_A00005",
+      "cpse_a_MATCPSE_A00006",
+      "cpse_a_MATCPSE_A00007",
+      "cpse_a_MATCPSE_A00008",
+      "cpse_a_MATCPSE_A00009",
+      "cpse_a_MATCPSE_A00010",
+      "cpse_b_MATCPSE_B00001",
+      "cpse_b_MATCPSE_B00002",
+      "cpse_b_MATCPSE_B00003",
+      "cpse_b_MATCPSE_B00004",
+      "cpse_b_MATCPSE_B00005",
+      "cpse_b_MATCPSE_B00006",
+      "cpse_b_MATCPSE_B00007",
+      "cpse_b_MATCPSE_B00008",
+      "cpse_b_MATCPSE_B00009",
+      "cpse_b_MATCPSE_B00010",
+      "cpse_c_MATCPSE_C00001",
+      "cpse_c_MATCPSE_C00002",
+      "cpse_c_MATCPSE_C00003",
+      "cpse_c_MATCPSE_C00004",
+      "cpse_c_MATCPSE_C00005",
+      "cpse_c_MATCPSE_C00006",
+      "cpse_c_MATCPSE_C00007",
+      "cpse_c_MATCPSE_C00008",
+      "cpse_c_MATCPSE_C00009",
+      "cpse_c_MATCPSE_C00010"
+    ],
+    "standard_code": "10101503",
+    "standard_label": "Steel Pipes",
+    "members": [
+      {
+        "id": "cpse_a_MATCPSE_A00001",
+        "cleaned_description": "stainless steel pipe 10mm x 5m",
+        "extracted_attrs": {
+          "material_type": "stainless_steel",
+          "diameter": 10.0,
+          "length": 5.0,
+          "width": 10.0,
+          "thickness": 10.0,
+          "schedule": null,
+          "grade": "STAINLESS STEEL",
+          "unit": "m",
+          "raw_units": [
+            "10mm",
+            "5m",
+            "stainless"
+          ]
+        },
+        "source_cpse_id": "cpse_a"
+      },
+      {
+        "id": "cpse_a_MATCPSE_A00002",
+        "cleaned_description": "stainless steel pipe 10mm x 5m",
+        "extracted_attrs": {
+          "material_type": "stainless_steel",
+          "diameter": 10.0,
+          "length": 5.0,
+          "width": 10.0,
+          "thickness": 10.0,
+          "schedule": null,
+          "grade": "STAINLESS STEEL",
+          "unit": "m",
+          "raw_units": [
+            "10mm",
+            "5m",
+            "stainless"
+          ]
+        },
+        "source_cpse_id": "cpse_a"
+      },
+      {
+        "id": "cpse_a_MATCPSE_A00003",
+        "cleaned_description": "stainless steel pipe 10mm x 5m",
+        "extracted_attrs": {
+          "material_type": "stainless_steel",
+          "diameter": 10.0,
+          "length": 5.0,
+          "width": 10.0,
+          "thickness": 10.0,
+          "schedule": null,
+          "grade": "STAINLESS STEEL",
+          "unit": "m",
+          "raw_units": [
+            "10mm",
+            "5m",
+            "stainless"
+          ]
+        },
+        "source_cpse_id": "cpse_a"
+      },
+      {
+        "id": "cpse_a_MATCPSE_A00004",
+        "cleaned_description": "stainless steel pipe 10mm x 5m",
+        "extracted_attrs": {
+          "material_type": "stainless_steel",
+          "diameter": 10.0,
+          "length": 5.0,
+          "width": 10.0,
+          "thickness": 10.0,
+          "schedule": null,
+          "grade": "STAINLESS STEEL",
+          "unit": "m",
+          "raw_units": [
+            "10mm",
+            "5m",
+            "stainless"
+          ]
+        },
+        "source_cpse_id": "cpse_a"
+      },
+      {
+        "id": "cpse_a_MATCPSE_A00005",
+        "cleaned_description": "stainless steel pipe 10mm x 5m",
+        "extracted_attrs": {
+          "material_type": "stainless_steel",
+          "diameter": 10.0,
+          "length": 5.0,
+          "width": 10.0,
+          "thickness": 10.0,
+          "schedule": null,
+          "grade": "STAINLESS STEEL",
+          "unit": "m",
+          "raw_units": [
+            "10mm",
+            "5m",
+            "stainless"
+          ]
+        },
+        "source_cpse_id": "cpse_a"
+      },
+      {
+        "id": "cpse_a_MATCPSE_A00006",
+        "cleaned_description": "stainless steel pipe 25mm x 6m",
+        "extracted_attrs": {
+          "material_type": "stainless_steel",
+          "diameter": 25.0,
+          "length": 6.0,
+          "width": 25.0,
+          "thickness": 25.0,
+          "schedule": null,
+          "grade": "STAINLESS STEEL",
+          "unit": "m",
+          "raw_units": [
+            "25mm",
+            "6m",
+            "stainless"
+          ]
+        },
+        "source_cpse_id": "cpse_a"
+      },
+      {
+        "id": "cpse_a_MATCPSE_A00007",
+        "cleaned_description": "stainless steel pipe 25mm x 6m",
+        "extracted_attrs": {
+          "material_type": "stainless_steel",
+          "diameter": 25.0,
+          "length": 6.0,
+          "width": 25.0,
+          "thickness": 25.0,
+          "schedule": null,
+          "grade": "STAINLESS STEEL",
+          "unit": "m",
+          "raw_units": [
+            "25mm",
+            "6m",
+            "stainless"
+          ]
+        },
+        "source_cpse_id": "cpse_a"
+      },
+      {
+        "id": "cpse_a_MATCPSE_A00008",
+        "cleaned_description": "stainless steel pipe 25mm x 6m",
+        "extracted_attrs": {
+          "material_type": "stainless_steel",
+          "diameter": 25.0,
+          "length": 6.0,
+          "width": 25.0,
+          "thickness": 25.0,
+          "schedule": null,
+          "grade": "STAINLESS STEEL",
+          "unit": "m",
+          "raw_units": [
+            "25mm",
+            "6m",
+            "stainless"
+          ]
+        },
+        "source_cpse_id": "cpse_a"
+      },
+      {
+        "id": "cpse_a_MATCPSE_A00009",
+        "cleaned_description": "stainless steel pipe 25mm x 6m",
+        "extracted_attrs": {
+          "material_type": "stainless_steel",
+          "diameter": 25.0,
+          "length": 6.0,
+          "width": 25.0,
+          "thickness": 25.0,
+          "schedule": null,
+          "grade": "STAINLESS STEEL",
+          "unit": "m",
+          "raw_units": [
+            "25mm",
+            "6m",
+            "stainless"
+          ]
+        },
+        "source_cpse_id": "cpse_a"
+      },
+      {
+        "id": "cpse_a_MATCPSE_A00010",
+        "cleaned_description": "stainless steel pipe 25mm x 6m",
+        "extracted_attrs": {
+          "material_type": "stainless_steel",
+          "diameter": 25.0,
+          "length": 6.0,
+          "width": 25.0,
+          "thickness": 25.0,
+          "schedule": null,
+          "grade": "STAINLESS STEEL",
+          "unit": "m",
+          "raw_units": [
+            "25mm",
+            "6m",
+            "stainless"
+          ]
+        },
+        "source_cpse_id": "cpse_a"
+      },
+      {
+        "id": "cpse_b_MATCPSE_B00001",
+        "cleaned_description": "stainless steel pipe 10mm x 5m",
+        "extracted_attrs": {
+          "material_type": "stainless_steel",
+          "diameter": 10.0,
+          "length": 5.0,
+          "width": 10.0,
+          "thickness": 10.0,
+          "schedule": null,
+          "grade": "STAINLESS STEEL",
+          "unit": "m",
+          "raw_units": [
+            "10mm",
+            "5m",
+            "stainless"
+          ]
+        },
+        "source_cpse_id": "cpse_b"
+      },
+      {
+        "id": "cpse_b_MATCPSE_B00002",
+        "cleaned_description": "stainless steel pipe 10mm x 5m",
+        "extracted_attrs": {
+          "material_type": "stainless_steel",
+          "diameter": 10.0,
+          "length": 5.0,
+          "width": 10.0,
+          "thickness": 10.0,
+          "schedule": null,
+          "grade": "STAINLESS STEEL",
+          "unit": "m",
+          "raw_units": [
+            "10mm",
+            "5m",
+            "stainless"
+          ]
+        },
+        "source_cpse_id": "cpse_b"
+      },
+      {
+        "id": "cpse_b_MATCPSE_B00003",
+        "cleaned_description": "stainless steel pipe 10mm x 5m",
+        "extracted_attrs": {
+          "material_type": "stainless_steel",
+          "diameter": 10.0,
+          "length": 5.0,
+          "width": 10.0,
+          "thickness": 10.0,
+          "schedule": null,
+          "grade": "STAINLESS STEEL",
+          "unit": "m",
+          "raw_units": [
+            "10mm",
+            "5m",
+            "stainless"
+          ]
+        },
+        "source_cpse_id": "cpse_b"
+      },
+      {
+        "id": "cpse_b_MATCPSE_B00004",
+        "cleaned_description": "stainless steel pipe 10mm x 5m",
+        "extracted_attrs": {
+          "material_type": "stainless_steel",
+          "diameter": 10.0,
+          "length": 5.0,
+          "width": 10.0,
+          "thickness": 10.0,
+          "schedule": null,
+          "grade": "STAINLESS STEEL",
+          "unit": "m",
+          "raw_units": [
+            "10mm",
+            "5m",
+            "stainless"
+          ]
+        },
+        "source_cpse_id": "cpse_b"
+      },
+      {
+        "id": "cpse_b_MATCPSE_B00005",
+        "cleaned_description": "stainless steel pipe 10mm x 5m",
+        "extracted_attrs": {
+          "material_type": "stainless_steel",
+          "diameter": 10.0,
+          "length": 5.0,
+          "width": 10.0,
+          "thickness": 10.0,
+          "schedule": null,
+          "grade": "STAINLESS STEEL",
+          "unit": "m",
+          "raw_units": [
+            "10mm",
+            "5m",
+            "stainless"
+          ]
+        },
+        "source_cpse_id": "cpse_b"
+      },
+      {
+        "id": "cpse_b_MATCPSE_B00006",
+        "cleaned_description": "stainless steel pipe 25mm x 6m",
+        "extracted_attrs": {
+          "material_type": "stainless_steel",
+          "diameter": 25.0,
+          "length": 6.0,
+          "width": 25.0,
+          "thickness": 25.0,
+          "schedule": null,
+          "grade": "STAINLESS STEEL",
+          "unit": "m",
+          "raw_units": [
+            "25mm",
+            "6m",
+            "stainless"
+          ]
+        },
+        "source_cpse_id": "cpse_b"
+      },
+      {
+        "id": "cpse_b_MATCPSE_B00007",
+        "cleaned_description": "stainless steel pipe 25mm x 6m",
+        "extracted_attrs": {
+          "material_type": "stainless_steel",
+          "diameter": 25.0,
+          "length": 6.0,
+          "width": 25.0,
+          "thickness": 25.0,
+          "schedule": null,
+          "grade": "STAINLESS STEEL",
+          "unit": "m",
+          "raw_units": [
+            "25mm",
+            "6m",
+            "stainless"
+          ]
+        },
+        "source_cpse_id": "cpse_b"
+      },
+      {
+        "id": "cpse_b_MATCPSE_B00008",
+        "cleaned_description": "stainless steel pipe 25mm x 6m",
+        "extracted_attrs": {
+          "material_type": "stainless_steel",
+          "diameter": 25.0,
+          "length": 6.0,
+          "width": 25.0,
+          "thickness": 25.0,
+          "schedule": null,
+          "grade": "STAINLESS STEEL",
+          "unit": "m",
+          "raw_units": [
+            "25mm",
+            "6m",
+            "stainless"
+          ]
+        },
+        "source_cpse_id": "cpse_b"
+      },
+      {
+        "id": "cpse_b_MATCPSE_B00009",
+        "cleaned_description": "stainless steel pipe 25mm x 6m",
+        "extracted_attrs": {
+          "material_type": "stainless_steel",
+          "diameter": 25.0,
+          "length": 6.0,
+          "width": 25.0,
+          "thickness": 25.0,
+          "schedule": null,
+          "grade": "STAINLESS STEEL",
+          "unit": "m",
+          "raw_units": [
+            "25mm",
+            "6m",
+            "stainless"
+          ]
+        },
+        "source_cpse_id": "cpse_b"
+      },
+      {
+        "id": "cpse_b_MATCPSE_B00010",
+        "cleaned_description": "stainless steel pipe 25mm x 6m",
+        "extracted_attrs": {
+          "material_type": "stainless_steel",
+          "diameter": 25.0,
+          "length": 6.0,
+          "width": 25.0,
+          "thickness": 25.0,
+          "schedule": null,
+          "grade": "STAINLESS STEEL",
+          "unit": "m",
+          "raw_units": [
+            "25mm",
+            "6m",
+            "stainless"
+          ]
+        },
+        "source_cpse_id": "cpse_b"
+      },
+      {
+        "id": "cpse_c_MATCPSE_C00001",
+        "cleaned_description": "stainless steel pipe 10mm x 5m",
+        "extracted_attrs": {
+          "material_type": "stainless_steel",
+          "diameter": 10.0,
+          "length": 5.0,
+          "width": 10.0,
+          "thickness": 10.0,
+          "schedule": null,
+          "grade": "STAINLESS STEEL",
+          "unit": "m",
+          "raw_units": [
+            "10mm",
+            "5m",
+            "stainless"
+          ]
+        },
+        "source_cpse_id": "cpse_c"
+      },
+      {
+        "id": "cpse_c_MATCPSE_C00002",
+        "cleaned_description": "stainless steel pipe 10mm x 5m",
+        "extracted_attrs": {
+          "material_type": "stainless_steel",
+          "diameter": 10.0,
+          "length": 5.0,
+          "width": 10.0,
+          "thickness": 10.0,
+          "schedule": null,
+          "grade": "STAINLESS STEEL",
+          "unit": "m",
+          "raw_units": [
+            "10mm",
+            "5m",
+            "stainless"
+          ]
+        },
+        "source_cpse_id": "cpse_c"
+      },
+      {
+        "id": "cpse_c_MATCPSE_C00003",
+        "cleaned_description": "stainless steel pipe 10mm x 5m",
+        "extracted_attrs": {
+          "material_type": "stainless_steel",
+          "diameter": 10.0,
+          "length": 5.0,
+          "width": 10.0,
+          "thickness": 10.0,
+          "schedule": null,
+          "grade": "STAINLESS STEEL",
+          "unit": "m",
+          "raw_units": [
+            "10mm",
+            "5m",
+            "stainless"
+          ]
+        },
+        "source_cpse_id": "cpse_c"
+      },
+      {
+        "id": "cpse_c_MATCPSE_C00004",
+        "cleaned_description": "stainless steel pipe 10mm x 5m",
+        "extracted_attrs": {
+          "material_type": "stainless_steel",
+          "diameter": 10.0,
+          "length": 5.0,
+          "width": 10.0,
+          "thickness": 10.0,
+          "schedule": null,
+          "grade": "STAINLESS STEEL",
+          "unit": "m",
+          "raw_units": [
+            "10mm",
+            "5m",
+            "stainless"
+          ]
+        },
+        "source_cpse_id": "cpse_c"
+      },
+      {
+        "id": "cpse_c_MATCPSE_C00005",
+        "cleaned_description": "stainless steel pipe 10mm x 5m",
+        "extracted_attrs": {
+          "material_type": "stainless_steel",
+          "diameter": 10.0,
+          "length": 5.0,
+          "width": 10.0,
+          "thickness": 10.0,
+          "schedule": null,
+          "grade": "STAINLESS STEEL",
+          "unit": "m",
+          "raw_units": [
+            "10mm",
+            "5m",
+            "stainless"
+          ]
+        },
+        "source_cpse_id": "cpse_c"
+      },
+      {
+        "id": "cpse_c_MATCPSE_C00006",
+        "cleaned_description": "stainless steel pipe 25mm x 6m",
+        "extracted_attrs": {
+          "material_type": "stainless_steel",
+          "diameter": 25.0,
+          "length": 6.0,
+          "width": 25.0,
+          "thickness": 25.0,
+          "schedule": null,
+          "grade": "STAINLESS STEEL",
+          "unit": "m",
+          "raw_units": [
+            "25mm",
+            "6m",
+            "stainless"
+          ]
+        },
+        "source_cpse_id": "cpse_c"
+      },
+      {
+        "id": "cpse_c_MATCPSE_C00007",
+        "cleaned_description": "stainless steel pipe 25mm x 6m",
+        "extracted_attrs": {
+          "material_type": "stainless_steel",
+          "diameter": 25.0,
+          "length": 6.0,
+          "width": 25.0,
+          "thickness": 25.0,
+          "schedule": null,
+          "grade": "STAINLESS STEEL",
+          "unit": "m",
+          "raw_units": [
+            "25mm",
+            "6m",
+            "stainless"
+          ]
+        },
+        "source_cpse_id": "cpse_c"
+      },
+      {
+        "id": "cpse_c_MATCPSE_C00008",
+        "cleaned_description": "stainless steel pipe 25mm x 6m",
+        "extracted_attrs": {
+          "material_type": "stainless_steel",
+          "diameter": 25.0,
+          "length": 6.0,
+          "width": 25.0,
+          "thickness": 25.0,
+          "schedule": null,
+          "grade": "STAINLESS STEEL",
+          "unit": "m",
+          "raw_units": [
+            "25mm",
+            "6m",
+            "stainless"
+          ]
+        },
+        "source_cpse_id": "cpse_c"
+      },
+      {
+        "id": "cpse_c_MATCPSE_C00009",
+        "cleaned_description": "stainless steel pipe 25mm x 6m",
+        "extracted_attrs": {
+          "material_type": "stainless_steel",
+          "diameter": 25.0,
+          "length": 6.0,
+          "width": 25.0,
+          "thickness": 25.0,
+          "schedule": null,
+          "grade": "STAINLESS STEEL",
+          "unit": "m",
+          "raw_units": [
+            "25mm",
+            "6m",
+            "stainless"
+          ]
+        },
+        "source_cpse_id": "cpse_c"
+      },
+      {
+        "id": "cpse_c_MATCPSE_C00010",
+        "cleaned_description": "stainless steel pipe 25mm x 6m",
+        "extracted_attrs": {
+          "material_type": "stainless_steel",
+          "diameter": 25.0,
+          "length": 6.0,
+          "width": 25.0,
+          "thickness": 25.0,
+          "schedule": null,
+          "grade": "STAINLESS STEEL",
+          "unit": "m",
+          "raw_units": [
+            "25mm",
+            "6m",
+            "stainless"
+          ]
+        },
+        "source_cpse_id": "cpse_c"
+      }
+    ]
+  },
+  {
+    "cluster_id": "cluster_cpse_a_MATCPSE_A00011",
+    "representative": "carbon steel plate 12mm",
+    "member_ids": [
+      "cpse_a_MATCPSE_A00011",
+      "cpse_a_MATCPSE_A00012",
+      "cpse_a_MATCPSE_A00013",
+      "cpse_a_MATCPSE_A00014",
+      "cpse_a_MATCPSE_A00015",
+      "cpse_b_MATCPSE_B00011",
+      "cpse_b_MATCPSE_B00012",
+      "cpse_b_MATCPSE_B00013",
+      "cpse_b_MATCPSE_B00014",
+      "cpse_b_MATCPSE_B00015",
+      "cpse_c_MATCPSE_C00011",
+      "cpse_c_MATCPSE_C00012",
+      "cpse_c_MATCPSE_C00013",
+      "cpse_c_MATCPSE_C00014",
+      "cpse_c_MATCPSE_C00015"
+    ],
+    "standard_code": "10101501",
+    "standard_label": "Steel Plates",
+    "members": [
+      {
+        "id": "cpse_a_MATCPSE_A00011",
+        "cleaned_description": "carbon steel plate 12mm",
+        "extracted_attrs": {
+          "material_type": "carbon_steel",
+          "diameter": 12.0,
+          "length": null,
+          "width": 12.0,
+          "thickness": 12.0,
+          "schedule": null,
+          "grade": null,
+          "unit": "mm",
+          "raw_units": [
+            "12mm"
+          ]
+        },
+        "source_cpse_id": "cpse_a"
+      },
+      {
+        "id": "cpse_a_MATCPSE_A00012",
+        "cleaned_description": "carbon steel plate 12mm",
+        "extracted_attrs": {
+          "material_type": "carbon_steel",
+          "diameter": 12.0,
+          "length": null,
+          "width": 12.0,
+          "thickness": 12.0,
+          "schedule": null,
+          "grade": null,
+          "unit": "mm",
+          "raw_units": [
+            "12mm"
+          ]
+        },
+        "source_cpse_id": "cpse_a"
+      },
+      {
+        "id": "cpse_a_MATCPSE_A00013",
+        "cleaned_description": "carbon steel plate 12mm",
+        "extracted_attrs": {
+          "material_type": "carbon_steel",
+          "diameter": 12.0,
+          "length": null,
+          "width": 12.0,
+          "thickness": 12.0,
+          "schedule": null,
+          "grade": null,
+          "unit": "mm",
+          "raw_units": [
+            "12mm"
+          ]
+        },
+        "source_cpse_id": "cpse_a"
+      },
+      {
+        "id": "cpse_a_MATCPSE_A00014",
+        "cleaned_description": "carbon steel plate 12mm",
+        "extracted_attrs": {
+          "material_type": "carbon_steel",
+          "diameter": 12.0,
+          "length": null,
+          "width": 12.0,
+          "thickness": 12.0,
+          "schedule": null,
+          "grade": null,
+          "unit": "mm",
+          "raw_units": [
+            "12mm"
+          ]
+        },
+        "source_cpse_id": "cpse_a"
+      },
+      {
+        "id": "cpse_a_MATCPSE_A00015",
+        "cleaned_description": "carbon steel plate 12mm",
+        "extracted_attrs": {
+          "material_type": "carbon_steel",
+          "diameter": 12.0,
+          "length": null,
+          "width": 12.0,
+          "thickness": 12.0,
+          "schedule": null,
+          "grade": null,
+          "unit": "mm",
+          "raw_units": [
+            "12mm"
+          ]
+        },
+        "source_cpse_id": "cpse_a"
+      },
+      {
+        "id": "cpse_b_MATCPSE_B00011",
+        "cleaned_description": "carbon steel plate 12mm",
+        "extracted_attrs": {
+          "material_type": "carbon_steel",
+          "diameter": 12.0,
+          "length": null,
+          "width": 12.0,
+          "thickness": 12.0,
+          "schedule": null,
+          "grade": null,
+          "unit": "mm",
+          "raw_units": [
+            "12mm"
+          ]
+        },
+        "source_cpse_id": "cpse_b"
+      },
+      {
+        "id": "cpse_b_MATCPSE_B00012",
+        "cleaned_description": "carbon steel plate 12mm",
+        "extracted_attrs": {
+          "material_type": "carbon_steel",
+          "diameter": 12.0,
+          "length": null,
+          "width": 12.0,
+          "thickness": 12.0,
+          "schedule": null,
+          "grade": null,
+          "unit": "mm",
+          "raw_units": [
+            "12mm"
+          ]
+        },
+        "source_cpse_id": "cpse_b"
+      },
+      {
+        "id": "cpse_b_MATCPSE_B00013",
+        "cleaned_description": "carbon steel plate 12mm",
+        "extracted_attrs": {
+          "material_type": "carbon_steel",
+          "diameter": 12.0,
+          "length": null,
+          "width": 12.0,
+          "thickness": 12.0,
+          "schedule": null,
+          "grade": null,
+          "unit": "mm",
+          "raw_units": [
+            "12mm"
+          ]
+        },
+        "source_cpse_id": "cpse_b"
+      },
+      {
+        "id": "cpse_b_MATCPSE_B00014",
+        "cleaned_description": "carbon steel plate 12mm",
+        "extracted_attrs": {
+          "material_type": "carbon_steel",
+          "diameter": 12.0,
+          "length": null,
+          "width": 12.0,
+          "thickness": 12.0,
+          "schedule": null,
+          "grade": null,
+          "unit": "mm",
+          "raw_units": [
+            "12mm"
+          ]
+        },
+        "source_cpse_id": "cpse_b"
+      },
+      {
+        "id": "cpse_b_MATCPSE_B00015",
+        "cleaned_description": "carbon steel plate 12mm",
+        "extracted_attrs": {
+          "material_type": "carbon_steel",
+          "diameter": 12.0,
+          "length": null,
+          "width": 12.0,
+          "thickness": 12.0,
+          "schedule": null,
+          "grade": null,
+          "unit": "mm",
+          "raw_units": [
+            "12mm"
+          ]
+        },
+        "source_cpse_id": "cpse_b"
+      },
+      {
+        "id": "cpse_c_MATCPSE_C00011",
+        "cleaned_description": "carbon steel plate 12mm",
+        "extracted_attrs": {
+          "material_type": "carbon_steel",
+          "diameter": 12.0,
+          "length": null,
+          "width": 12.0,
+          "thickness": 12.0,
+          "schedule": null,
+          "grade": null,
+          "unit": "mm",
+          "raw_units": [
+            "12mm"
+          ]
+        },
+        "source_cpse_id": "cpse_c"
+      },
+      {
+        "id": "cpse_c_MATCPSE_C00012",
+        "cleaned_description": "carbon steel plate 12mm",
+        "extracted_attrs": {
+          "material_type": "carbon_steel",
+          "diameter": 12.0,
+          "length": null,
+          "width": 12.0,
+          "thickness": 12.0,
+          "schedule": null,
+          "grade": null,
+          "unit": "mm",
+          "raw_units": [
+            "12mm"
+          ]
+        },
+        "source_cpse_id": "cpse_c"
+      },
+      {
+        "id": "cpse_c_MATCPSE_C00013",
+        "cleaned_description": "carbon steel plate 12mm",
+        "extracted_attrs": {
+          "material_type": "carbon_steel",
+          "diameter": 12.0,
+          "length": null,
+          "width": 12.0,
+          "thickness": 12.0,
+          "schedule": null,
+          "grade": null,
+          "unit": "mm",
+          "raw_units": [
+            "12mm"
+          ]
+        },
+        "source_cpse_id": "cpse_c"
+      },
+      {
+        "id": "cpse_c_MATCPSE_C00014",
+        "cleaned_description": "carbon steel plate 12mm",
+        "extracted_attrs": {
+          "material_type": "carbon_steel",
+          "diameter": 12.0,
+          "length": null,
+          "width": 12.0,
+          "thickness": 12.0,
+          "schedule": null,
+          "grade": null,
+          "unit": "mm",
+          "raw_units": [
+            "12mm"
+          ]
+        },
+        "source_cpse_id": "cpse_c"
+      },
+      {
+        "id": "cpse_c_MATCPSE_C00015",
+        "cleaned_description": "carbon steel plate 12mm",
+        "extracted_attrs": {
+          "material_type": "carbon_steel",
+          "diameter": 12.0,
+          "length": null,
+          "width": 12.0,
+          "thickness": 12.0,
+          "schedule": null,
+          "grade": null,
+          "unit": "mm",
+          "raw_units": [
+            "12mm"
+          ]
+        },
+        "source_cpse_id": "cpse_c"
+      }
+    ]
+  },
+  {
+    "cluster_id": "cluster_cpse_a_MATCPSE_A00016",
+    "representative": "aluminum sheet 2mm x 1m x 2m",
+    "member_ids": [
+      "cpse_a_MATCPSE_A00016",
+      "cpse_a_MATCPSE_A00017",
+      "cpse_a_MATCPSE_A00018",
+      "cpse_a_MATCPSE_A00019",
+      "cpse_a_MATCPSE_A00020",
+      "cpse_b_MATCPSE_B00016",
+      "cpse_b_MATCPSE_B00017",
+      "cpse_b_MATCPSE_B00018",
+      "cpse_b_MATCPSE_B00019",
+      "cpse_b_MATCPSE_B00020",
+      "cpse_c_MATCPSE_C00016",
+      "cpse_c_MATCPSE_C00017",
+      "cpse_c_MATCPSE_C00018",
+      "cpse_c_MATCPSE_C00019",
+      "cpse_c_MATCPSE_C00020"
+    ],
+    "standard_code": "10152001",
+    "standard_label": "Aluminum Sheets",
+    "members": [
+      {
+        "id": "cpse_a_MATCPSE_A00016",
+        "cleaned_description": "aluminum sheet 2mm x 1m x 2m",
+        "extracted_attrs": {
+          "material_type": "aluminum",
+          "diameter": 2.0,
+          "length": 1.0,
+          "width": 2.0,
+          "thickness": 2.0,
+          "schedule": null,
+          "grade": null,
+          "unit": "m",
+          "raw_units": [
+            "1m",
+            "2m",
+            "2mm",
+            "aluminum"
+          ]
+        },
+        "source_cpse_id": "cpse_a"
+      },
+      {
+        "id": "cpse_a_MATCPSE_A00017",
+        "cleaned_description": "aluminum sheet 2mm x 1m x 2m",
+        "extracted_attrs": {
+          "material_type": "aluminum",
+          "diameter": 2.0,
+          "length": 1.0,
+          "width": 2.0,
+          "thickness": 2.0,
+          "schedule": null,
+          "grade": null,
+          "unit": "m",
+          "raw_units": [
+            "1m",
+            "2m",
+            "2mm",
+            "aluminum"
+          ]
+        },
+        "source_cpse_id": "cpse_a"
+      },
+      {
+        "id": "cpse_a_MATCPSE_A00018",
+        "cleaned_description": "aluminum sheet 2mm x 1m x 2m",
+        "extracted_attrs": {
+          "material_type": "aluminum",
+          "diameter": 2.0,
+          "length": 1.0,
+          "width": 2.0,
+          "thickness": 2.0,
+          "schedule": null,
+          "grade": null,
+          "unit": "m",
+          "raw_units": [
+            "1m",
+            "2m",
+            "2mm",
+            "aluminum"
+          ]
+        },
+        "source_cpse_id": "cpse_a"
+      },
+      {
+        "id": "cpse_a_MATCPSE_A00019",
+        "cleaned_description": "aluminum sheet 2mm x 1m x 2m",
+        "extracted_attrs": {
+          "material_type": "aluminum",
+          "diameter": 2.0,
+          "length": 1.0,
+          "width": 2.0,
+          "thickness": 2.0,
+          "schedule": null,
+          "grade": null,
+          "unit": "m",
+          "raw_units": [
+            "1m",
+            "2m",
+            "2mm",
+            "aluminum"
+          ]
+        },
+        "source_cpse_id": "cpse_a"
+      },
+      {
+        "id": "cpse_a_MATCPSE_A00020",
+        "cleaned_description": "aluminum sheet 2mm x 1m x 2m",
+        "extracted_attrs": {
+          "material_type": "aluminum",
+          "diameter": 2.0,
+          "length": 1.0,
+          "width": 2.0,
+          "thickness": 2.0,
+          "schedule": null,
+          "grade": null,
+          "unit": "m",
+          "raw_units": [
+            "1m",
+            "2m",
+            "2mm",
+            "aluminum"
+          ]
+        },
+        "source_cpse_id": "cpse_a"
+      },
+      {
+        "id": "cpse_b_MATCPSE_B00016",
+        "cleaned_description": "aluminum sheet 2mm x 1m x 2m",
+        "extracted_attrs": {
+          "material_type": "aluminum",
+          "diameter": 2.0,
+          "length": 1.0,
+          "width": 2.0,
+          "thickness": 2.0,
+          "schedule": null,
+          "grade": null,
+          "unit": "m",
+          "raw_units": [
+            "1m",
+            "2m",
+            "2mm",
+            "aluminum"
+          ]
+        },
+        "source_cpse_id": "cpse_b"
+      },
+      {
+        "id": "cpse_b_MATCPSE_B00017",
+        "cleaned_description": "aluminum sheet 2mm x 1m x 2m",
+        "extracted_attrs": {
+          "material_type": "aluminum",
+          "diameter": 2.0,
+          "length": 1.0,
+          "width": 2.0,
+          "thickness": 2.0,
+          "schedule": null,
+          "grade": null,
+          "unit": "m",
+          "raw_units": [
+            "1m",
+            "2m",
+            "2mm",
+            "aluminum"
+          ]
+        },
+        "source_cpse_id": "cpse_b"
+      },
+      {
+        "id": "cpse_b_MATCPSE_B00018",
+        "cleaned_description": "aluminum sheet 2mm x 1m x 2m",
+        "extracted_attrs": {
+          "material_type": "aluminum",
+          "diameter": 2.0,
+          "length": 1.0,
+          "width": 2.0,
+          "thickness": 2.0,
+          "schedule": null,
+          "grade": null,
+          "unit": "m",
+          "raw_units": [
+            "1m",
+            "2m",
+            "2mm",
+            "aluminum"
+          ]
+        },
+        "source_cpse_id": "cpse_b"
+      },
+      {
+        "id": "cpse_b_MATCPSE_B00019",
+        "cleaned_description": "aluminum sheet 2mm x 1m x 2m",
+        "extracted_attrs": {
+          "material_type": "aluminum",
+          "diameter": 2.0,
+          "length": 1.0,
+          "width": 2.0,
+          "thickness": 2.0,
+          "schedule": null,
+          "grade": null,
+          "unit": "m",
+          "raw_units": [
+            "1m",
+            "2m",
+            "2mm",
+            "aluminum"
+          ]
+        },
+        "source_cpse_id": "cpse_b"
+      },
+      {
+        "id": "cpse_b_MATCPSE_B00020",
+        "cleaned_description": "aluminum sheet 2mm x 1m x 2m",
+        "extracted_attrs": {
+          "material_type": "aluminum",
+          "diameter": 2.0,
+          "length": 1.0,
+          "width": 2.0,
+          "thickness": 2.0,
+          "schedule": null,
+          "grade": null,
+          "unit": "m",
+          "raw_units": [
+            "1m",
+            "2m",
+            "2mm",
+            "aluminum"
+          ]
+        },
+        "source_cpse_id": "cpse_b"
+      },
+      {
+        "id": "cpse_c_MATCPSE_C00016",
+        "cleaned_description": "aluminum sheet 2mm x 1m x 2m",
+        "extracted_attrs": {
+          "material_type": "aluminum",
+          "diameter": 2.0,
+          "length": 1.0,
+          "width": 2.0,
+          "thickness": 2.0,
+          "schedule": null,
+          "grade": null,
+          "unit": "m",
+          "raw_units": [
+            "1m",
+            "2m",
+            "2mm",
+            "aluminum"
+          ]
+        },
+        "source_cpse_id": "cpse_c"
+      },
+      {
+        "id": "cpse_c_MATCPSE_C00017",
+        "cleaned_description": "aluminum sheet 2mm x 1m x 2m",
+        "extracted_attrs": {
+          "material_type": "aluminum",
+          "diameter": 2.0,
+          "length": 1.0,
+          "width": 2.0,
+          "thickness": 2.0,
+          "schedule": null,
+          "grade": null,
+          "unit": "m",
+          "raw_units": [
+            "1m",
+            "2m",
+            "2mm",
+            "aluminum"
+          ]
+        },
+        "source_cpse_id": "cpse_c"
+      },
+      {
+        "id": "cpse_c_MATCPSE_C00018",
+        "cleaned_description": "aluminum sheet 2mm x 1m x 2m",
+        "extracted_attrs": {
+          "material_type": "aluminum",
+          "diameter": 2.0,
+          "length": 1.0,
+          "width": 2.0,
+          "thickness": 2.0,
+          "schedule": null,
+          "grade": null,
+          "unit": "m",
+          "raw_units": [
+            "1m",
+            "2m",
+            "2mm",
+            "aluminum"
+          ]
+        },
+        "source_cpse_id": "cpse_c"
+      },
+      {
+        "id": "cpse_c_MATCPSE_C00019",
+        "cleaned_description": "aluminum sheet 2mm x 1m x 2m",
+        "extracted_attrs": {
+          "material_type": "aluminum",
+          "diameter": 2.0,
+          "length": 1.0,
+          "width": 2.0,
+          "thickness": 2.0,
+          "schedule": null,
+          "grade": null,
+          "unit": "m",
+          "raw_units": [
+            "1m",
+            "2m",
+            "2mm",
+            "aluminum"
+          ]
+        },
+        "source_cpse_id": "cpse_c"
+      },
+      {
+        "id": "cpse_c_MATCPSE_C00020",
+        "cleaned_description": "aluminum sheet 2mm x 1m x 2m",
+        "extracted_attrs": {
+          "material_type": "aluminum",
+          "diameter": 2.0,
+          "length": 1.0,
+          "width": 2.0,
+          "thickness": 2.0,
+          "schedule": null,
+          "grade": null,
+          "unit": "m",
+          "raw_units": [
+            "1m",
+            "2m",
+            "2mm",
+            "aluminum"
+          ]
+        },
+        "source_cpse_id": "cpse_c"
+      }
+    ]
+  },
+  {
+    "cluster_id": "cluster_cpse_a_MATCPSE_A00021",
+    "representative": "copper pipe 15mm x 6m",
+    "member_ids": [
+      "cpse_a_MATCPSE_A00021",
+      "cpse_a_MATCPSE_A00022",
+      "cpse_a_MATCPSE_A00023",
+      "cpse_a_MATCPSE_A00024",
+      "cpse_a_MATCPSE_A00025",
+      "cpse_b_MATCPSE_B00021",
+      "cpse_b_MATCPSE_B00022",
+      "cpse_b_MATCPSE_B00023",
+      "cpse_b_MATCPSE_B00024",
+      "cpse_b_MATCPSE_B00025",
+      "cpse_c_MATCPSE_C00021",
+      "cpse_c_MATCPSE_C00022",
+      "cpse_c_MATCPSE_C00023",
+      "cpse_c_MATCPSE_C00024",
+      "cpse_c_MATCPSE_C00025"
+    ],
+    "standard_code": "15151504",
+    "standard_label": "Copper Pipes",
+    "members": [
+      {
+        "id": "cpse_a_MATCPSE_A00021",
+        "cleaned_description": "copper pipe 15mm x 6m",
+        "extracted_attrs": {
+          "material_type": "copper",
+          "diameter": 15.0,
+          "length": 6.0,
+          "width": 15.0,
+          "thickness": 15.0,
+          "schedule": null,
+          "grade": null,
+          "unit": "m",
+          "raw_units": [
+            "15mm",
+            "6m"
+          ]
+        },
+        "source_cpse_id": "cpse_a"
+      },
+      {
+        "id": "cpse_a_MATCPSE_A00022",
+        "cleaned_description": "cu pipe 15mm x 6m",
+        "extracted_attrs": {
+          "material_type": null,
+          "diameter": 15.0,
+          "length": 6.0,
+          "width": 15.0,
+          "thickness": 15.0,
+          "schedule": null,
+          "grade": null,
+          "unit": "m",
+          "raw_units": [
+            "15mm",
+            "6m"
+          ]
+        },
+        "source_cpse_id": "cpse_a"
+      },
+      {
+        "id": "cpse_a_MATCPSE_A00023",
+        "cleaned_description": "copper pipe 15mm x 6m",
+        "extracted_attrs": {
+          "material_type": "copper",
+          "diameter": 15.0,
+          "length": 6.0,
+          "width": 15.0,
+          "thickness": 15.0,
+          "schedule": null,
+          "grade": null,
+          "unit": "m",
+          "raw_units": [
+            "15mm",
+            "6m"
+          ]
+        },
+        "source_cpse_id": "cpse_a"
+      },
+      {
+        "id": "cpse_a_MATCPSE_A00024",
+        "cleaned_description": "copper pipe 15mm x 6m",
+        "extracted_attrs": {
+          "material_type": "copper",
+          "diameter": 15.0,
+          "length": 6.0,
+          "width": 15.0,
+          "thickness": 15.0,
+          "schedule": null,
+          "grade": null,
+          "unit": "m",
+          "raw_units": [
+            "15mm",
+            "6m"
+          ]
+        },
+        "source_cpse_id": "cpse_a"
+      },
+      {
+        "id": "cpse_a_MATCPSE_A00025",
+        "cleaned_description": "cu pipe 15mm x 6m",
+        "extracted_attrs": {
+          "material_type": null,
+          "diameter": 15.0,
+          "length": 6.0,
+          "width": 15.0,
+          "thickness": 15.0,
+          "schedule": null,
+          "grade": null,
+          "unit": "m",
+          "raw_units": [
+            "15mm",
+            "6m"
+          ]
+        },
+        "source_cpse_id": "cpse_a"
+      },
+      {
+        "id": "cpse_b_MATCPSE_B00021",
+        "cleaned_description": "copper pipe 15mm x 6m",
+        "extracted_attrs": {
+          "material_type": "copper",
+          "diameter": 15.0,
+          "length": 6.0,
+          "width": 15.0,
+          "thickness": 15.0,
+          "schedule": null,
+          "grade": null,
+          "unit": "m",
+          "raw_units": [
+            "15mm",
+            "6m"
+          ]
+        },
+        "source_cpse_id": "cpse_b"
+      },
+      {
+        "id": "cpse_b_MATCPSE_B00022",
+        "cleaned_description": "copper pipe 15mm x 6m",
+        "extracted_attrs": {
+          "material_type": "copper",
+          "diameter": 15.0,
+          "length": 6.0,
+          "width": 15.0,
+          "thickness": 15.0,
+          "schedule": null,
+          "grade": null,
+          "unit": "m",
+          "raw_units": [
+            "15mm",
+            "6m"
+          ]
+        },
+        "source_cpse_id": "cpse_b"
+      },
+      {
+        "id": "cpse_b_MATCPSE_B00023",
+        "cleaned_description": "cu pipe 15mm x 6m",
+        "extracted_attrs": {
+          "material_type": null,
+          "diameter": 15.0,
+          "length": 6.0,
+          "width": 15.0,
+          "thickness": 15.0,
+          "schedule": null,
+          "grade": null,
+          "unit": "m",
+          "raw_units": [
+            "15mm",
+            "6m"
+          ]
+        },
+        "source_cpse_id": "cpse_b"
+      },
+      {
+        "id": "cpse_b_MATCPSE_B00024",
+        "cleaned_description": "cu pipe 15mm x 6m",
+        "extracted_attrs": {
+          "material_type": null,
+          "diameter": 15.0,
+          "length": 6.0,
+          "width": 15.0,
+          "thickness": 15.0,
+          "schedule": null,
+          "grade": null,
+          "unit": "m",
+          "raw_units": [
+            "15mm",
+            "6m"
+          ]
+        },
+        "source_cpse_id": "cpse_b"
+      },
+      {
+        "id": "cpse_b_MATCPSE_B00025",
+        "cleaned_description": "cu pipe 15mm x 6m",
+        "extracted_attrs": {
+          "material_type": null,
+          "diameter": 15.0,
+          "length": 6.0,
+          "width": 15.0,
+          "thickness": 15.0,
+          "schedule": null,
+          "grade": null,
+          "unit": "m",
+          "raw_units": [
+            "15mm",
+            "6m"
+          ]
+        },
+        "source_cpse_id": "cpse_b"
+      },
+      {
+        "id": "cpse_c_MATCPSE_C00021",
+        "cleaned_description": "copper pipe 15mm x 6m",
+        "extracted_attrs": {
+          "material_type": "copper",
+          "diameter": 15.0,
+          "length": 6.0,
+          "width": 15.0,
+          "thickness": 15.0,
+          "schedule": null,
+          "grade": null,
+          "unit": "m",
+          "raw_units": [
+            "15mm",
+            "6m"
+          ]
+        },
+        "source_cpse_id": "cpse_c"
+      },
+      {
+        "id": "cpse_c_MATCPSE_C00022",
+        "cleaned_description": "copper pipe 15mm x 6m",
+        "extracted_attrs": {
+          "material_type": "copper",
+          "diameter": 15.0,
+          "length": 6.0,
+          "width": 15.0,
+          "thickness": 15.0,
+          "schedule": null,
+          "grade": null,
+          "unit": "m",
+          "raw_units": [
+            "15mm",
+            "6m"
+          ]
+        },
+        "source_cpse_id": "cpse_c"
+      },
+      {
+        "id": "cpse_c_MATCPSE_C00023",
+        "cleaned_description": "copper pipe 15mm x 6m",
+        "extracted_attrs": {
+          "material_type": "copper",
+          "diameter": 15.0,
+          "length": 6.0,
+          "width": 15.0,
+          "thickness": 15.0,
+          "schedule": null,
+          "grade": null,
+          "unit": "m",
+          "raw_units": [
+            "15mm",
+            "6m"
+          ]
+        },
+        "source_cpse_id": "cpse_c"
+      },
+      {
+        "id": "cpse_c_MATCPSE_C00024",
+        "cleaned_description": "cu pipe 15mm x 6m",
+        "extracted_attrs": {
+          "material_type": null,
+          "diameter": 15.0,
+          "length": 6.0,
+          "width": 15.0,
+          "thickness": 15.0,
+          "schedule": null,
+          "grade": null,
+          "unit": "m",
+          "raw_units": [
+            "15mm",
+            "6m"
+          ]
+        },
+        "source_cpse_id": "cpse_c"
+      },
+      {
+        "id": "cpse_c_MATCPSE_C00025",
+        "cleaned_description": "copper pipe 15mm x 6m",
+        "extracted_attrs": {
+          "material_type": "copper",
+          "diameter": 15.0,
+          "length": 6.0,
+          "width": 15.0,
+          "thickness": 15.0,
+          "schedule": null,
+          "grade": null,
+          "unit": "m",
+          "raw_units": [
+            "15mm",
+            "6m"
+          ]
+        },
+        "source_cpse_id": "cpse_c"
+      }
+    ]
+  },
+  {
+    "cluster_id": "cluster_cpse_a_MATCPSE_A00036",
+    "representative": "hex nut m10",
+    "member_ids": [
+      "cpse_a_MATCPSE_A00036",
+      "cpse_a_MATCPSE_A00037",
+      "cpse_a_MATCPSE_A00038",
+      "cpse_a_MATCPSE_A00039",
+      "cpse_a_MATCPSE_A00040",
+      "cpse_b_MATCPSE_B00036",
+      "cpse_b_MATCPSE_B00037",
+      "cpse_b_MATCPSE_B00038",
+      "cpse_b_MATCPSE_B00039",
+      "cpse_b_MATCPSE_B00040",
+      "cpse_c_MATCPSE_C00036",
+      "cpse_c_MATCPSE_C00037",
+      "cpse_c_MATCPSE_C00038",
+      "cpse_c_MATCPSE_C00039",
+      "cpse_c_MATCPSE_C00040"
+    ],
+    "standard_code": "12101501",
+    "standard_label": "Bolts, Hex",
+    "members": [
+      {
+        "id": "cpse_a_MATCPSE_A00036",
+        "cleaned_description": "hex nut m10",
+        "extracted_attrs": {
+          "material_type": null,
+          "diameter": null,
+          "length": null,
+          "width": null,
+          "thickness": null,
+          "schedule": null,
+          "grade": null,
+          "unit": null,
+          "raw_units": [
+            "m10"
+          ]
+        },
+        "source_cpse_id": "cpse_a"
+      },
+      {
+        "id": "cpse_a_MATCPSE_A00037",
+        "cleaned_description": "hex nut m10",
+        "extracted_attrs": {
+          "material_type": null,
+          "diameter": null,
+          "length": null,
+          "width": null,
+          "thickness": null,
+          "schedule": null,
+          "grade": null,
+          "unit": null,
+          "raw_units": [
+            "m10"
+          ]
+        },
+        "source_cpse_id": "cpse_a"
+      },
+      {
+        "id": "cpse_a_MATCPSE_A00038",
+        "cleaned_description": "hex nut m10",
+        "extracted_attrs": {
+          "material_type": null,
+          "diameter": null,
+          "length": null,
+          "width": null,
+          "thickness": null,
+          "schedule": null,
+          "grade": null,
+          "unit": null,
+          "raw_units": [
+            "m10"
+          ]
+        },
+        "source_cpse_id": "cpse_a"
+      },
+      {
+        "id": "cpse_a_MATCPSE_A00039",
+        "cleaned_description": "hex nut m10",
+        "extracted_attrs": {
+          "material_type": null,
+          "diameter": null,
+          "length": null,
+          "width": null,
+          "thickness": null,
+          "schedule": null,
+          "grade": null,
+          "unit": null,
+          "raw_units": [
+            "m10"
+          ]
+        },
+        "source_cpse_id": "cpse_a"
+      },
+      {
+        "id": "cpse_a_MATCPSE_A00040",
+        "cleaned_description": "hex nut m10",
+        "extracted_attrs": {
+          "material_type": null,
+          "diameter": null,
+          "length": null,
+          "width": null,
+          "thickness": null,
+          "schedule": null,
+          "grade": null,
+          "unit": null,
+          "raw_units": [
+            "m10"
+          ]
+        },
+        "source_cpse_id": "cpse_a"
+      },
+      {
+        "id": "cpse_b_MATCPSE_B00036",
+        "cleaned_description": "hex nut m10",
+        "extracted_attrs": {
+          "material_type": null,
+          "diameter": null,
+          "length": null,
+          "width": null,
+          "thickness": null,
+          "schedule": null,
+          "grade": null,
+          "unit": null,
+          "raw_units": [
+            "m10"
+          ]
+        },
+        "source_cpse_id": "cpse_b"
+      },
+      {
+        "id": "cpse_b_MATCPSE_B00037",
+        "cleaned_description": "hex nut m10",
+        "extracted_attrs": {
+          "material_type": null,
+          "diameter": null,
+          "length": null,
+          "width": null,
+          "thickness": null,
+          "schedule": null,
+          "grade": null,
+          "unit": null,
+          "raw_units": [
+            "m10"
+          ]
+        },
+        "source_cpse_id": "cpse_b"
+      },
+      {
+        "id": "cpse_b_MATCPSE_B00038",
+        "cleaned_description": "hex nut m10",
+        "extracted_attrs": {
+          "material_type": null,
+          "diameter": null,
+          "length": null,
+          "width": null,
+          "thickness": null,
+          "schedule": null,
+          "grade": null,
+          "unit": null,
+          "raw_units": [
+            "m10"
+          ]
+        },
+        "source_cpse_id": "cpse_b"
+      },
+      {
+        "id": "cpse_b_MATCPSE_B00039",
+        "cleaned_description": "hex nut m10",
+        "extracted_attrs": {
+          "material_type": null,
+          "diameter": null,
+          "length": null,
+          "width": null,
+          "thickness": null,
+          "schedule": null,
+          "grade": null,
+          "unit": null,
+          "raw_units": [
+            "m10"
+          ]
+        },
+        "source_cpse_id": "cpse_b"
+      },
+      {
+        "id": "cpse_b_MATCPSE_B00040",
+        "cleaned_description": "hex nut m10",
+        "extracted_attrs": {
+          "material_type": null,
+          "diameter": null,
+          "length": null,
+          "width": null,
+          "thickness": null,
+          "schedule": null,
+          "grade": null,
+          "unit": null,
+          "raw_units": [
+            "m10"
+          ]
+        },
+        "source_cpse_id": "cpse_b"
+      },
+      {
+        "id": "cpse_c_MATCPSE_C00036",
+        "cleaned_description": "hex nut m10",
+        "extracted_attrs": {
+          "material_type": null,
+          "diameter": null,
+          "length": null,
+          "width": null,
+          "thickness": null,
+          "schedule": null,
+          "grade": null,
+          "unit": null,
+          "raw_units": [
+            "m10"
+          ]
+        },
+        "source_cpse_id": "cpse_c"
+      },
+      {
+        "id": "cpse_c_MATCPSE_C00037",
+        "cleaned_description": "hex nut m10",
+        "extracted_attrs": {
+          "material_type": null,
+          "diameter": null,
+          "length": null,
+          "width": null,
+          "thickness": null,
+          "schedule": null,
+          "grade": null,
+          "unit": null,
+          "raw_units": [
+            "m10"
+          ]
+        },
+        "source_cpse_id": "cpse_c"
+      },
+      {
+        "id": "cpse_c_MATCPSE_C00038",
+        "cleaned_description": "hex nut m10",
+        "extracted_attrs": {
+          "material_type": null,
+          "diameter": null,
+          "length": null,
+          "width": null,
+          "thickness": null,
+          "schedule": null,
+          "grade": null,
+          "unit": null,
+          "raw_units": [
+            "m10"
+          ]
+        },
+        "source_cpse_id": "cpse_c"
+      },
+      {
+        "id": "cpse_c_MATCPSE_C00039",
+        "cleaned_description": "hex nut m10",
+        "extracted_attrs": {
+          "material_type": null,
+          "diameter": null,
+          "length": null,
+          "width": null,
+          "thickness": null,
+          "schedule": null,
+          "grade": null,
+          "unit": null,
+          "raw_units": [
+            "m10"
+          ]
+        },
+        "source_cpse_id": "cpse_c"
+      },
+      {
+        "id": "cpse_c_MATCPSE_C00040",
+        "cleaned_description": "hex nut m10",
+        "extracted_attrs": {
+          "material_type": null,
+          "diameter": null,
+          "length": null,
+          "width": null,
+          "thickness": null,
+          "schedule": null,
+          "grade": null,
+          "unit": null,
+          "raw_units": [
+            "m10"
+          ]
+        },
+        "source_cpse_id": "cpse_c"
+      }
+    ]
+  },
+  {
+    "cluster_id": "cluster_cpse_a_MATCPSE_A00046",
+    "representative": "cu cable 2.5mm2 3 core",
+    "member_ids": [
+      "cpse_a_MATCPSE_A00046",
+      "cpse_a_MATCPSE_A00047",
+      "cpse_a_MATCPSE_A00049",
+      "cpse_a_MATCPSE_A00050",
+      "cpse_b_MATCPSE_B00047",
+      "cpse_b_MATCPSE_B00049",
+      "cpse_c_MATCPSE_C00047",
+      "cpse_c_MATCPSE_C00048",
+      "cpse_c_MATCPSE_C00049"
+    ],
+    "standard_code": "11101502",
+    "standard_label": "Copper Cables",
+    "members": [
+      {
+        "id": "cpse_a_MATCPSE_A00046",
+        "cleaned_description": "cu cable 2.5mm2 3 core",
+        "extracted_attrs": {
+          "material_type": null,
+          "diameter": null,
+          "length": null,
+          "width": null,
+          "thickness": null,
+          "schedule": null,
+          "grade": null,
+          "unit": null,
+          "raw_units": [
+            "2.5mm2"
+          ]
+        },
+        "source_cpse_id": "cpse_a"
+      },
+      {
+        "id": "cpse_a_MATCPSE_A00047",
+        "cleaned_description": "cu cable 2.5mm2 3 core",
+        "extracted_attrs": {
+          "material_type": null,
+          "diameter": null,
+          "length": null,
+          "width": null,
+          "thickness": null,
+          "schedule": null,
+          "grade": null,
+          "unit": null,
+          "raw_units": [
+            "2.5mm2"
+          ]
+        },
+        "source_cpse_id": "cpse_a"
+      },
+      {
+        "id": "cpse_a_MATCPSE_A00049",
+        "cleaned_description": "cu cable 2.5mm2 3 core",
+        "extracted_attrs": {
+          "material_type": null,
+          "diameter": null,
+          "length": null,
+          "width": null,
+          "thickness": null,
+          "schedule": null,
+          "grade": null,
+          "unit": null,
+          "raw_units": [
+            "2.5mm2"
+          ]
+        },
+        "source_cpse_id": "cpse_a"
+      },
+      {
+        "id": "cpse_a_MATCPSE_A00050",
+        "cleaned_description": "cu cable 2.5mm2 3 core",
+        "extracted_attrs": {
+          "material_type": null,
+          "diameter": null,
+          "length": null,
+          "width": null,
+          "thickness": null,
+          "schedule": null,
+          "grade": null,
+          "unit": null,
+          "raw_units": [
+            "2.5mm2"
+          ]
+        },
+        "source_cpse_id": "cpse_a"
+      },
+      {
+        "id": "cpse_b_MATCPSE_B00047",
+        "cleaned_description": "cu cable 2.5mm2 3 core",
+        "extracted_attrs": {
+          "material_type": null,
+          "diameter": null,
+          "length": null,
+          "width": null,
+          "thickness": null,
+          "schedule": null,
+          "grade": null,
+          "unit": null,
+          "raw_units": [
+            "2.5mm2"
+          ]
+        },
+        "source_cpse_id": "cpse_b"
+      },
+      {
+        "id": "cpse_b_MATCPSE_B00049",
+        "cleaned_description": "cu cable 2.5mm2 3 core",
+        "extracted_attrs": {
+          "material_type": null,
+          "diameter": null,
+          "length": null,
+          "width": null,
+          "thickness": null,
+          "schedule": null,
+          "grade": null,
+          "unit": null,
+          "raw_units": [
+            "2.5mm2"
+          ]
+        },
+        "source_cpse_id": "cpse_b"
+      },
+      {
+        "id": "cpse_c_MATCPSE_C00047",
+        "cleaned_description": "cu cable 2.5mm2 3 core",
+        "extracted_attrs": {
+          "material_type": null,
+          "diameter": null,
+          "length": null,
+          "width": null,
+          "thickness": null,
+          "schedule": null,
+          "grade": null,
+          "unit": null,
+          "raw_units": [
+            "2.5mm2"
+          ]
+        },
+        "source_cpse_id": "cpse_c"
+      },
+      {
+        "id": "cpse_c_MATCPSE_C00048",
+        "cleaned_description": "cu cable 2.5mm2 3 core",
+        "extracted_attrs": {
+          "material_type": null,
+          "diameter": null,
+          "length": null,
+          "width": null,
+          "thickness": null,
+          "schedule": null,
+          "grade": null,
+          "unit": null,
+          "raw_units": [
+            "2.5mm2"
+          ]
+        },
+        "source_cpse_id": "cpse_c"
+      },
+      {
+        "id": "cpse_c_MATCPSE_C00049",
+        "cleaned_description": "cu cable 2.5mm2 3 core",
+        "extracted_attrs": {
+          "material_type": null,
+          "diameter": null,
+          "length": null,
+          "width": null,
+          "thickness": null,
+          "schedule": null,
+          "grade": null,
+          "unit": null,
+          "raw_units": [
+            "2.5mm2"
+          ]
+        },
+        "source_cpse_id": "cpse_c"
+      }
+    ]
+  },
+  {
+    "cluster_id": "cluster_cpse_a_MATCPSE_A00048",
+    "representative": "copper cable 2.5mm2 3 core",
+    "member_ids": [
+      "cpse_a_MATCPSE_A00048",
+      "cpse_b_MATCPSE_B00046",
+      "cpse_b_MATCPSE_B00048",
+      "cpse_b_MATCPSE_B00050",
+      "cpse_c_MATCPSE_C00046",
+      "cpse_c_MATCPSE_C00050"
+    ],
+    "standard_code": "11101502",
+    "standard_label": "Copper Cables",
+    "members": [
+      {
+        "id": "cpse_a_MATCPSE_A00048",
+        "cleaned_description": "copper cable 2.5mm2 3 core",
+        "extracted_attrs": {
+          "material_type": "copper",
+          "diameter": null,
+          "length": null,
+          "width": null,
+          "thickness": null,
+          "schedule": null,
+          "grade": null,
+          "unit": null,
+          "raw_units": [
+            "2.5mm2"
+          ]
+        },
+        "source_cpse_id": "cpse_a"
+      },
+      {
+        "id": "cpse_b_MATCPSE_B00046",
+        "cleaned_description": "copper cable 2.5mm2 3 core",
+        "extracted_attrs": {
+          "material_type": "copper",
+          "diameter": null,
+          "length": null,
+          "width": null,
+          "thickness": null,
+          "schedule": null,
+          "grade": null,
+          "unit": null,
+          "raw_units": [
+            "2.5mm2"
+          ]
+        },
+        "source_cpse_id": "cpse_b"
+      },
+      {
+        "id": "cpse_b_MATCPSE_B00048",
+        "cleaned_description": "copper cable 2.5mm2 3 core",
+        "extracted_attrs": {
+          "material_type": "copper",
+          "diameter": null,
+          "length": null,
+          "width": null,
+          "thickness": null,
+          "schedule": null,
+          "grade": null,
+          "unit": null,
+          "raw_units": [
+            "2.5mm2"
+          ]
+        },
+        "source_cpse_id": "cpse_b"
+      },
+      {
+        "id": "cpse_b_MATCPSE_B00050",
+        "cleaned_description": "copper cable 2.5mm2 3 core",
+        "extracted_attrs": {
+          "material_type": "copper",
+          "diameter": null,
+          "length": null,
+          "width": null,
+          "thickness": null,
+          "schedule": null,
+          "grade": null,
+          "unit": null,
+          "raw_units": [
+            "2.5mm2"
+          ]
+        },
+        "source_cpse_id": "cpse_b"
+      },
+      {
+        "id": "cpse_c_MATCPSE_C00046",
+        "cleaned_description": "copper cable 2.5mm2 3 core",
+        "extracted_attrs": {
+          "material_type": "copper",
+          "diameter": null,
+          "length": null,
+          "width": null,
+          "thickness": null,
+          "schedule": null,
+          "grade": null,
+          "unit": null,
+          "raw_units": [
+            "2.5mm2"
+          ]
+        },
+        "source_cpse_id": "cpse_c"
+      },
+      {
+        "id": "cpse_c_MATCPSE_C00050",
+        "cleaned_description": "copper cable 2.5mm2 3 core",
+        "extracted_attrs": {
+          "material_type": "copper",
+          "diameter": null,
+          "length": null,
+          "width": null,
+          "thickness": null,
+          "schedule": null,
+          "grade": null,
+          "unit": null,
+          "raw_units": [
+            "2.5mm2"
+          ]
+        },
+        "source_cpse_id": "cpse_c"
+      }
+    ]
+  },
+  {
+    "cluster_id": "cluster_cpse_c_MATCPSE_C00026",
+    "representative": "hex bolt m10x50 grade 8.8",
+    "member_ids": [
+      "cpse_c_MATCPSE_C00026",
+      "cpse_c_MATCPSE_C00027",
+      "cpse_c_MATCPSE_C00028",
+      "cpse_c_MATCPSE_C00030"
+    ],
+    "standard_code": "12101501",
+    "standard_label": "Bolts, Hex",
+    "members": [
+      {
+        "id": "cpse_c_MATCPSE_C00026",
+        "cleaned_description": "hex bolt m10x50 grade 8.8",
+        "extracted_attrs": {
+          "material_type": null,
+          "diameter": null,
+          "length": null,
+          "width": null,
+          "thickness": null,
+          "schedule": null,
+          "grade": null,
+          "unit": null,
+          "raw_units": [
+            "grade",
+            "m10x50"
+          ]
+        },
+        "source_cpse_id": "cpse_c"
+      },
+      {
+        "id": "cpse_c_MATCPSE_C00027",
+        "cleaned_description": "hex bolt m10x50 grade 8.8",
+        "extracted_attrs": {
+          "material_type": null,
+          "diameter": null,
+          "length": null,
+          "width": null,
+          "thickness": null,
+          "schedule": null,
+          "grade": null,
+          "unit": null,
+          "raw_units": [
+            "grade",
+            "m10x50"
+          ]
+        },
+        "source_cpse_id": "cpse_c"
+      },
+      {
+        "id": "cpse_c_MATCPSE_C00028",
+        "cleaned_description": "hex bolt m10x50 grade 8.8",
+        "extracted_attrs": {
+          "material_type": null,
+          "diameter": null,
+          "length": null,
+          "width": null,
+          "thickness": null,
+          "schedule": null,
+          "grade": null,
+          "unit": null,
+          "raw_units": [
+            "grade",
+            "m10x50"
+          ]
+        },
+        "source_cpse_id": "cpse_c"
+      },
+      {
+        "id": "cpse_c_MATCPSE_C00030",
+        "cleaned_description": "hex bolt m10x50 grade 8.8",
+        "extracted_attrs": {
+          "material_type": null,
+          "diameter": null,
+          "length": null,
+          "width": null,
+          "thickness": null,
+          "schedule": null,
+          "grade": null,
+          "unit": null,
+          "raw_units": [
+            "grade",
+            "m10x50"
+          ]
+        },
+        "source_cpse_id": "cpse_c"
+      }
+    ]
+  }
+]

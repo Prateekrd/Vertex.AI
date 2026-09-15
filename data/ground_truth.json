@@ -1,0 +1,1052 @@
+[
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00001",
+    "canonical_product_id": "M_001",
+    "standard_code": "10101503",
+    "category": "Steel"
+  },
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00002",
+    "canonical_product_id": "M_001",
+    "standard_code": "10101503",
+    "category": "Steel"
+  },
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00003",
+    "canonical_product_id": "M_001",
+    "standard_code": "10101503",
+    "category": "Steel"
+  },
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00004",
+    "canonical_product_id": "M_001",
+    "standard_code": "10101503",
+    "category": "Steel"
+  },
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00005",
+    "canonical_product_id": "M_001",
+    "standard_code": "10101503",
+    "category": "Steel"
+  },
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00006",
+    "canonical_product_id": "M_002",
+    "standard_code": "10101503",
+    "category": "Steel"
+  },
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00007",
+    "canonical_product_id": "M_002",
+    "standard_code": "10101503",
+    "category": "Steel"
+  },
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00008",
+    "canonical_product_id": "M_002",
+    "standard_code": "10101503",
+    "category": "Steel"
+  },
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00009",
+    "canonical_product_id": "M_002",
+    "standard_code": "10101503",
+    "category": "Steel"
+  },
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00010",
+    "canonical_product_id": "M_002",
+    "standard_code": "10101503",
+    "category": "Steel"
+  },
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00011",
+    "canonical_product_id": "M_003",
+    "standard_code": "10101501",
+    "category": "Steel"
+  },
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00012",
+    "canonical_product_id": "M_003",
+    "standard_code": "10101501",
+    "category": "Steel"
+  },
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00013",
+    "canonical_product_id": "M_003",
+    "standard_code": "10101501",
+    "category": "Steel"
+  },
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00014",
+    "canonical_product_id": "M_003",
+    "standard_code": "10101501",
+    "category": "Steel"
+  },
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00015",
+    "canonical_product_id": "M_003",
+    "standard_code": "10101501",
+    "category": "Steel"
+  },
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00016",
+    "canonical_product_id": "M_004",
+    "standard_code": "10152001",
+    "category": "Metals"
+  },
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00017",
+    "canonical_product_id": "M_004",
+    "standard_code": "10152001",
+    "category": "Metals"
+  },
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00018",
+    "canonical_product_id": "M_004",
+    "standard_code": "10152001",
+    "category": "Metals"
+  },
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00019",
+    "canonical_product_id": "M_004",
+    "standard_code": "10152001",
+    "category": "Metals"
+  },
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00020",
+    "canonical_product_id": "M_004",
+    "standard_code": "10152001",
+    "category": "Metals"
+  },
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00021",
+    "canonical_product_id": "M_005",
+    "standard_code": "15151504",
+    "category": "Metals"
+  },
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00022",
+    "canonical_product_id": "M_005",
+    "standard_code": "15151504",
+    "category": "Metals"
+  },
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00023",
+    "canonical_product_id": "M_005",
+    "standard_code": "15151504",
+    "category": "Metals"
+  },
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00024",
+    "canonical_product_id": "M_005",
+    "standard_code": "15151504",
+    "category": "Metals"
+  },
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00025",
+    "canonical_product_id": "M_005",
+    "standard_code": "15151504",
+    "category": "Metals"
+  },
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00026",
+    "canonical_product_id": "F_001",
+    "standard_code": "12101501",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00027",
+    "canonical_product_id": "F_001",
+    "standard_code": "12101501",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00028",
+    "canonical_product_id": "F_001",
+    "standard_code": "12101501",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00029",
+    "canonical_product_id": "F_001",
+    "standard_code": "12101501",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00030",
+    "canonical_product_id": "F_001",
+    "standard_code": "12101501",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00031",
+    "canonical_product_id": "F_002",
+    "standard_code": "12101501",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00032",
+    "canonical_product_id": "F_002",
+    "standard_code": "12101501",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00033",
+    "canonical_product_id": "F_002",
+    "standard_code": "12101501",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00034",
+    "canonical_product_id": "F_002",
+    "standard_code": "12101501",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00035",
+    "canonical_product_id": "F_002",
+    "standard_code": "12101501",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00036",
+    "canonical_product_id": "F_003",
+    "standard_code": "12101503",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00037",
+    "canonical_product_id": "F_003",
+    "standard_code": "12101503",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00038",
+    "canonical_product_id": "F_003",
+    "standard_code": "12101503",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00039",
+    "canonical_product_id": "F_003",
+    "standard_code": "12101503",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00040",
+    "canonical_product_id": "F_003",
+    "standard_code": "12101503",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00041",
+    "canonical_product_id": "F_004",
+    "standard_code": "12101504",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00042",
+    "canonical_product_id": "F_004",
+    "standard_code": "12101504",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00043",
+    "canonical_product_id": "F_004",
+    "standard_code": "12101504",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00044",
+    "canonical_product_id": "F_004",
+    "standard_code": "12101504",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00045",
+    "canonical_product_id": "F_004",
+    "standard_code": "12101504",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00046",
+    "canonical_product_id": "E_001",
+    "standard_code": "11101502",
+    "category": "Electrical"
+  },
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00047",
+    "canonical_product_id": "E_001",
+    "standard_code": "11101502",
+    "category": "Electrical"
+  },
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00048",
+    "canonical_product_id": "E_001",
+    "standard_code": "11101502",
+    "category": "Electrical"
+  },
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00049",
+    "canonical_product_id": "E_001",
+    "standard_code": "11101502",
+    "category": "Electrical"
+  },
+  {
+    "cpse_id": "cpse_a",
+    "raw_id": "MATCPSE_A00050",
+    "canonical_product_id": "E_001",
+    "standard_code": "11101502",
+    "category": "Electrical"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00001",
+    "canonical_product_id": "M_001",
+    "standard_code": "10101503",
+    "category": "Steel"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00002",
+    "canonical_product_id": "M_001",
+    "standard_code": "10101503",
+    "category": "Steel"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00003",
+    "canonical_product_id": "M_001",
+    "standard_code": "10101503",
+    "category": "Steel"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00004",
+    "canonical_product_id": "M_001",
+    "standard_code": "10101503",
+    "category": "Steel"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00005",
+    "canonical_product_id": "M_001",
+    "standard_code": "10101503",
+    "category": "Steel"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00006",
+    "canonical_product_id": "M_002",
+    "standard_code": "10101503",
+    "category": "Steel"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00007",
+    "canonical_product_id": "M_002",
+    "standard_code": "10101503",
+    "category": "Steel"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00008",
+    "canonical_product_id": "M_002",
+    "standard_code": "10101503",
+    "category": "Steel"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00009",
+    "canonical_product_id": "M_002",
+    "standard_code": "10101503",
+    "category": "Steel"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00010",
+    "canonical_product_id": "M_002",
+    "standard_code": "10101503",
+    "category": "Steel"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00011",
+    "canonical_product_id": "M_003",
+    "standard_code": "10101501",
+    "category": "Steel"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00012",
+    "canonical_product_id": "M_003",
+    "standard_code": "10101501",
+    "category": "Steel"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00013",
+    "canonical_product_id": "M_003",
+    "standard_code": "10101501",
+    "category": "Steel"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00014",
+    "canonical_product_id": "M_003",
+    "standard_code": "10101501",
+    "category": "Steel"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00015",
+    "canonical_product_id": "M_003",
+    "standard_code": "10101501",
+    "category": "Steel"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00016",
+    "canonical_product_id": "M_004",
+    "standard_code": "10152001",
+    "category": "Metals"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00017",
+    "canonical_product_id": "M_004",
+    "standard_code": "10152001",
+    "category": "Metals"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00018",
+    "canonical_product_id": "M_004",
+    "standard_code": "10152001",
+    "category": "Metals"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00019",
+    "canonical_product_id": "M_004",
+    "standard_code": "10152001",
+    "category": "Metals"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00020",
+    "canonical_product_id": "M_004",
+    "standard_code": "10152001",
+    "category": "Metals"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00021",
+    "canonical_product_id": "M_005",
+    "standard_code": "15151504",
+    "category": "Metals"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00022",
+    "canonical_product_id": "M_005",
+    "standard_code": "15151504",
+    "category": "Metals"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00023",
+    "canonical_product_id": "M_005",
+    "standard_code": "15151504",
+    "category": "Metals"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00024",
+    "canonical_product_id": "M_005",
+    "standard_code": "15151504",
+    "category": "Metals"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00025",
+    "canonical_product_id": "M_005",
+    "standard_code": "15151504",
+    "category": "Metals"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00026",
+    "canonical_product_id": "F_001",
+    "standard_code": "12101501",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00027",
+    "canonical_product_id": "F_001",
+    "standard_code": "12101501",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00028",
+    "canonical_product_id": "F_001",
+    "standard_code": "12101501",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00029",
+    "canonical_product_id": "F_001",
+    "standard_code": "12101501",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00030",
+    "canonical_product_id": "F_001",
+    "standard_code": "12101501",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00031",
+    "canonical_product_id": "F_002",
+    "standard_code": "12101501",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00032",
+    "canonical_product_id": "F_002",
+    "standard_code": "12101501",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00033",
+    "canonical_product_id": "F_002",
+    "standard_code": "12101501",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00034",
+    "canonical_product_id": "F_002",
+    "standard_code": "12101501",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00035",
+    "canonical_product_id": "F_002",
+    "standard_code": "12101501",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00036",
+    "canonical_product_id": "F_003",
+    "standard_code": "12101503",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00037",
+    "canonical_product_id": "F_003",
+    "standard_code": "12101503",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00038",
+    "canonical_product_id": "F_003",
+    "standard_code": "12101503",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00039",
+    "canonical_product_id": "F_003",
+    "standard_code": "12101503",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00040",
+    "canonical_product_id": "F_003",
+    "standard_code": "12101503",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00041",
+    "canonical_product_id": "F_004",
+    "standard_code": "12101504",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00042",
+    "canonical_product_id": "F_004",
+    "standard_code": "12101504",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00043",
+    "canonical_product_id": "F_004",
+    "standard_code": "12101504",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00044",
+    "canonical_product_id": "F_004",
+    "standard_code": "12101504",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00045",
+    "canonical_product_id": "F_004",
+    "standard_code": "12101504",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00046",
+    "canonical_product_id": "E_001",
+    "standard_code": "11101502",
+    "category": "Electrical"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00047",
+    "canonical_product_id": "E_001",
+    "standard_code": "11101502",
+    "category": "Electrical"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00048",
+    "canonical_product_id": "E_001",
+    "standard_code": "11101502",
+    "category": "Electrical"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00049",
+    "canonical_product_id": "E_001",
+    "standard_code": "11101502",
+    "category": "Electrical"
+  },
+  {
+    "cpse_id": "cpse_b",
+    "raw_id": "MATCPSE_B00050",
+    "canonical_product_id": "E_001",
+    "standard_code": "11101502",
+    "category": "Electrical"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00001",
+    "canonical_product_id": "M_001",
+    "standard_code": "10101503",
+    "category": "Steel"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00002",
+    "canonical_product_id": "M_001",
+    "standard_code": "10101503",
+    "category": "Steel"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00003",
+    "canonical_product_id": "M_001",
+    "standard_code": "10101503",
+    "category": "Steel"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00004",
+    "canonical_product_id": "M_001",
+    "standard_code": "10101503",
+    "category": "Steel"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00005",
+    "canonical_product_id": "M_001",
+    "standard_code": "10101503",
+    "category": "Steel"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00006",
+    "canonical_product_id": "M_002",
+    "standard_code": "10101503",
+    "category": "Steel"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00007",
+    "canonical_product_id": "M_002",
+    "standard_code": "10101503",
+    "category": "Steel"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00008",
+    "canonical_product_id": "M_002",
+    "standard_code": "10101503",
+    "category": "Steel"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00009",
+    "canonical_product_id": "M_002",
+    "standard_code": "10101503",
+    "category": "Steel"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00010",
+    "canonical_product_id": "M_002",
+    "standard_code": "10101503",
+    "category": "Steel"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00011",
+    "canonical_product_id": "M_003",
+    "standard_code": "10101501",
+    "category": "Steel"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00012",
+    "canonical_product_id": "M_003",
+    "standard_code": "10101501",
+    "category": "Steel"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00013",
+    "canonical_product_id": "M_003",
+    "standard_code": "10101501",
+    "category": "Steel"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00014",
+    "canonical_product_id": "M_003",
+    "standard_code": "10101501",
+    "category": "Steel"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00015",
+    "canonical_product_id": "M_003",
+    "standard_code": "10101501",
+    "category": "Steel"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00016",
+    "canonical_product_id": "M_004",
+    "standard_code": "10152001",
+    "category": "Metals"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00017",
+    "canonical_product_id": "M_004",
+    "standard_code": "10152001",
+    "category": "Metals"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00018",
+    "canonical_product_id": "M_004",
+    "standard_code": "10152001",
+    "category": "Metals"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00019",
+    "canonical_product_id": "M_004",
+    "standard_code": "10152001",
+    "category": "Metals"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00020",
+    "canonical_product_id": "M_004",
+    "standard_code": "10152001",
+    "category": "Metals"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00021",
+    "canonical_product_id": "M_005",
+    "standard_code": "15151504",
+    "category": "Metals"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00022",
+    "canonical_product_id": "M_005",
+    "standard_code": "15151504",
+    "category": "Metals"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00023",
+    "canonical_product_id": "M_005",
+    "standard_code": "15151504",
+    "category": "Metals"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00024",
+    "canonical_product_id": "M_005",
+    "standard_code": "15151504",
+    "category": "Metals"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00025",
+    "canonical_product_id": "M_005",
+    "standard_code": "15151504",
+    "category": "Metals"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00026",
+    "canonical_product_id": "F_001",
+    "standard_code": "12101501",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00027",
+    "canonical_product_id": "F_001",
+    "standard_code": "12101501",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00028",
+    "canonical_product_id": "F_001",
+    "standard_code": "12101501",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00029",
+    "canonical_product_id": "F_001",
+    "standard_code": "12101501",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00030",
+    "canonical_product_id": "F_001",
+    "standard_code": "12101501",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00031",
+    "canonical_product_id": "F_002",
+    "standard_code": "12101501",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00032",
+    "canonical_product_id": "F_002",
+    "standard_code": "12101501",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00033",
+    "canonical_product_id": "F_002",
+    "standard_code": "12101501",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00034",
+    "canonical_product_id": "F_002",
+    "standard_code": "12101501",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00035",
+    "canonical_product_id": "F_002",
+    "standard_code": "12101501",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00036",
+    "canonical_product_id": "F_003",
+    "standard_code": "12101503",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00037",
+    "canonical_product_id": "F_003",
+    "standard_code": "12101503",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00038",
+    "canonical_product_id": "F_003",
+    "standard_code": "12101503",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00039",
+    "canonical_product_id": "F_003",
+    "standard_code": "12101503",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00040",
+    "canonical_product_id": "F_003",
+    "standard_code": "12101503",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00041",
+    "canonical_product_id": "F_004",
+    "standard_code": "12101504",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00042",
+    "canonical_product_id": "F_004",
+    "standard_code": "12101504",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00043",
+    "canonical_product_id": "F_004",
+    "standard_code": "12101504",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00044",
+    "canonical_product_id": "F_004",
+    "standard_code": "12101504",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00045",
+    "canonical_product_id": "F_004",
+    "standard_code": "12101504",
+    "category": "Fasteners"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00046",
+    "canonical_product_id": "E_001",
+    "standard_code": "11101502",
+    "category": "Electrical"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00047",
+    "canonical_product_id": "E_001",
+    "standard_code": "11101502",
+    "category": "Electrical"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00048",
+    "canonical_product_id": "E_001",
+    "standard_code": "11101502",
+    "category": "Electrical"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00049",
+    "canonical_product_id": "E_001",
+    "standard_code": "11101502",
+    "category": "Electrical"
+  },
+  {
+    "cpse_id": "cpse_c",
+    "raw_id": "MATCPSE_C00050",
+    "canonical_product_id": "E_001",
+    "standard_code": "11101502",
+    "category": "Electrical"
+  }
+]

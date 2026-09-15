@@ -1,0 +1,51 @@
+source_cpse_id,source_material_id,description,unit,material_group,plant
+cpse_c,MATCPSE_C00001,Stainless Steel Pipe 10mm x 5m,m,Steel,Plant_cpse_c_03
+cpse_c,MATCPSE_C00002,Stainless Steel Pipe 10mm x 5m,m,Steel,Plant_cpse_c_01
+cpse_c,MATCPSE_C00003,SS-Pipe-10mm-x-5m,m,Steel,Plant_cpse_c_02
+cpse_c,MATCPSE_C00004,Stainless Steel Pipe 10mm x 5m,m,Steel,Plant_cpse_c_03
+cpse_c,MATCPSE_C00005,Stainless Steel Pipe 10mm x 5m,m,Steel,Plant_cpse_c_01
+cpse_c,MATCPSE_C00006,SS-Pipe-25mm-x-6m,m,Steel,Plant_cpse_c_02
+cpse_c,MATCPSE_C00007,SS-Pipe-25mm-x-6m,m,Steel,Plant_cpse_c_01
+cpse_c,MATCPSE_C00008,SS Pipe 25mm x 6m,m,Steel,Plant_cpse_c_03
+cpse_c,MATCPSE_C00009,SS-Pipe-25mm-x-6m,m,Steel,Plant_cpse_c_02
+cpse_c,MATCPSE_C00010,Stainless Steel Pipe 25mm x 6m,m,Steel,Plant_cpse_c_03
+cpse_c,MATCPSE_C00011,CS-Plate-12mm,kg,Steel,Plant_cpse_c_03
+cpse_c,MATCPSE_C00012,Carbon Steel Plate 12mm,kg,Steel,Plant_cpse_c_03
+cpse_c,MATCPSE_C00013,CS Plate 12mm,kg,Steel,Plant_cpse_c_02
+cpse_c,MATCPSE_C00014,CS-Plate-12mm,kg,Steel,Plant_cpse_c_03
+cpse_c,MATCPSE_C00015,CS Plate 12mm,kg,Steel,Plant_cpse_c_02
+cpse_c,MATCPSE_C00016,AL-Sheet-2mm-x-1m-x-2m,kg,Metals,Plant_cpse_c_02
+cpse_c,MATCPSE_C00017,Aluminum Sheet 2mm x 1m x 2m,kg,Metals,Plant_cpse_c_01
+cpse_c,MATCPSE_C00018,Aluminum Sheet 2mm x 1m x 2m,kg,Metals,Plant_cpse_c_01
+cpse_c,MATCPSE_C00019,AL Sheet 2mm x 1m x 2m,kg,Metals,Plant_cpse_c_01
+cpse_c,MATCPSE_C00020,AL-Sheet-2mm-x-1m-x-2m,kg,Metals,Plant_cpse_c_03
+cpse_c,MATCPSE_C00021,Copper Pipe 15mm x 6m,m,Metals,Plant_cpse_c_03
+cpse_c,MATCPSE_C00022,Copper Pipe 15mm x 6m,m,Metals,Plant_cpse_c_01
+cpse_c,MATCPSE_C00023,Copper Pipe 15mm x 6m,m,Metals,Plant_cpse_c_03
+cpse_c,MATCPSE_C00024,CU-Pipe-15mm-x-6m,m,Metals,Plant_cpse_c_01
+cpse_c,MATCPSE_C00025,Copper Pipe 15mm x 6m,m,Metals,Plant_cpse_c_01
+cpse_c,MATCPSE_C00026,Hex Bolt M10x50 Grade 8.8,pc,Fasteners,Plant_cpse_c_02
+cpse_c,MATCPSE_C00027,Hex Bolt M10x50 Grade 8.8,pc,Fasteners,Plant_cpse_c_03
+cpse_c,MATCPSE_C00028,Hex Bolt M10x50 Grade 8.8,pc,Fasteners,Plant_cpse_c_02
+cpse_c,MATCPSE_C00029,Hex-Bolt-M10x50-Gr-8.8,pc,Fasteners,Plant_cpse_c_02
+cpse_c,MATCPSE_C00030,Hex Bolt M10x50 Grade 8.8,pc,Fasteners,Plant_cpse_c_03
+cpse_c,MATCPSE_C00031,Hex Bolt M12x60 Grade 10.9,pc,Fasteners,Plant_cpse_c_03
+cpse_c,MATCPSE_C00032,Hex-Bolt-M12x60-Gr-10.9,pc,Fasteners,Plant_cpse_c_03
+cpse_c,MATCPSE_C00033,Hex Bolt M12x60 Gr 10.9,pc,Fasteners,Plant_cpse_c_01
+cpse_c,MATCPSE_C00034,Hex Bolt M12x60 Gr 10.9,pc,Fasteners,Plant_cpse_c_02
+cpse_c,MATCPSE_C00035,Hex Bolt M12x60 Grade 10.9,pc,Fasteners,Plant_cpse_c_01
+cpse_c,MATCPSE_C00036,Hex Nut M10,pc,Fasteners,Plant_cpse_c_03
+cpse_c,MATCPSE_C00037,Hex Nut M10,pc,Fasteners,Plant_cpse_c_02
+cpse_c,MATCPSE_C00038,Hex Nut M10,pc,Fasteners,Plant_cpse_c_02
+cpse_c,MATCPSE_C00039,Hex Nut M10,pc,Fasteners,Plant_cpse_c_03
+cpse_c,MATCPSE_C00040,Hex Nut M10,pc,Fasteners,Plant_cpse_c_03
+cpse_c,MATCPSE_C00041,Spring-Washer-M10,pc,Fasteners,Plant_cpse_c_03
+cpse_c,MATCPSE_C00042,Spring Washer M10,pc,Fasteners,Plant_cpse_c_01
+cpse_c,MATCPSE_C00043,Spring Washer M10,pc,Fasteners,Plant_cpse_c_03
+cpse_c,MATCPSE_C00044,Spring Washer M10,pc,Fasteners,Plant_cpse_c_01
+cpse_c,MATCPSE_C00045,Spring Washer M10,pc,Fasteners,Plant_cpse_c_01
+cpse_c,MATCPSE_C00046,Copper Cable 2.5mm2 3-core,m,Electrical,Plant_cpse_c_03
+cpse_c,MATCPSE_C00047,CU Cable 2.5mm2 3-core,m,Electrical,Plant_cpse_c_01
+cpse_c,MATCPSE_C00048,CU Cable 2.5mm2 3-core,m,Electrical,Plant_cpse_c_01
+cpse_c,MATCPSE_C00049,CU Cable 2.5mm2 3-core,m,Electrical,Plant_cpse_c_02
+cpse_c,MATCPSE_C00050,Copper Cable 2.5mm2 3-core,m,Electrical,Plant_cpse_c_01
