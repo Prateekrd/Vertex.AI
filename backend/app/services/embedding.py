@@ -23,7 +23,11 @@ class EmbeddingService:
     @property
     def model(self) -> SentenceTransformer:
         if self._model is None:
-            self._model = SentenceTransformer(self.model_name)
+            self._model = SentenceTransformer(
+                self.model_name,
+                model_kwargs={"low_cpu_mem_usage": False},
+                device="cpu",
+            )
         return self._model
 
     def encode(self, texts: List[str], normalize: bool = True) -> np.ndarray:

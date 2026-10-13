@@ -563,6 +563,8 @@ export default function ProcessingPage() {
   const wsRef = useRef<WebSocket | null>(null);
   const simTimer = useRef<ReturnType<typeof setInterval> | null>(null);
   const reconnectTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  // Ref so startPipeline can call runSimulation without circular useCallback deps
+  const runSimulationRef = useRef<((total: number, records: Array<{ id: string; description: string; source_cpse_id: string }>) => void) | null>(null);
 
   // ── Logging helper ──────────────────────────────────────────────────────
 
@@ -680,9 +682,9 @@ export default function ProcessingPage() {
   const connectWebSocket = useCallback((targetJobId: string) => {
     if (wsRef.current) wsRef.current.close();
 
-    // Short timeout — if backend doesn't respond in 2s, switch to simulation
+    // Give backend up to 10s to establish connection and respond before switching to simulation
     const timeoutId = setTimeout(() => {
-      addLog('warn', 'Backend not responding in time — switching to simulation');
+      addLog('warn', 'Backend not responding within 10s — switching to simulation');
       if (wsRef.current) {
         wsRef.current.close();
         wsRef.current = null;
@@ -691,9 +693,10 @@ export default function ProcessingPage() {
       const uploadedRecords = loadUploadedRecords();
       const total = uploadedRecords.length || 1204;
       runSimulation(total, uploadedRecords);
-    }, 2000);
+    }, 10000);
 
-    const wsUrl = `ws://${window.location.host}/api/v1/ws/process/${targetJobId}`;
+    const wsProtocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
+    const wsUrl = `${wsProtocol}//${window.location.host}/api/v1/process/ws/${targetJobId}`;
     const socket = new WebSocket(wsUrl);
 
     socket.onopen = () => {
@@ -726,15 +729,28 @@ export default function ProcessingPage() {
 
   const startPipeline = useCallback(async () => {
     setError(null);
-    setIsProcessing(true);
-    setIsDone(false);
     setLogs([]);
     setJobResult(null);
+
+    const activeUploadId = sessionStorage.getItem('active_upload_id');
+    const uploadedRecords = loadUploadedRecords();
+
+    if (!activeUploadId && uploadedRecords.length === 0) {
+      setError('No dataset uploaded or selected. Please upload a CSV file or choose a sample dataset in the Upload tab first.');
+      setIsProcessing(false);
+      return;
+    }
+
+    setIsProcessing(true);
+    setIsDone(false);
 
     if (simTimer.current) {
       clearInterval(simTimer.current);
       simTimer.current = null;
     }
+
+    // Clear stale job ID so we always get a fresh pipeline run
+    sessionStorage.removeItem('vertex_job_id');
 
     setStageProgress({
       preprocessing: { status: 'idle', progress: 0, details: '', items: 0 },
@@ -745,42 +761,60 @@ export default function ProcessingPage() {
 
     setMetrics({ total_records: 0, cleaned_records: 0, embeddings_generated: 0, clusters_found: 0, codes_mapped: 0, confidence_high: 0, confidence_medium: 0 });
 
-    // Load uploaded records count
-    const uploadedRecords = loadUploadedRecords();
-    const totalRecords = uploadedRecords.length || 1204;
+    const totalRecords = uploadedRecords.length;
 
     // Try to connect to real backend
     try {
-      const storedJobId = sessionStorage.getItem('vertex_job_id');
-      if (storedJobId) {
-        setJobId(storedJobId);
-        connectWebSocket(storedJobId);
-        return;
-      }
-
+      addLog('info', 'Starting processing pipeline…');
       const res = await fetch('/api/v1/process/start', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ upload_id: sessionStorage.getItem('active_upload_id') || '' }),
+        body: JSON.stringify({ upload_id: activeUploadId || '' }),
       });
       if (res.ok) {
         const data = await res.json();
+        addLog('info', `Backend accepted — job ${data.job_id}, ${data.total_records} records`);
         setJobId(data.job_id);
         sessionStorage.setItem('vertex_job_id', data.job_id);
         connectWebSocket(data.job_id);
         return;
+      } else {
+        const errJson = await res.json().catch(() => ({}));
+        const errMsg = errJson.detail || `Backend returned status ${res.status}`;
+        // If backend can't find the uploaded file but we have records locally,
+        // fall back to client-side simulation instead of showing a hard error
+        if (totalRecords > 0) {
+          addLog('warn', `Backend: ${errMsg} — running client-side processing on ${totalRecords} uploaded records`);
+          runSimulationRef.current?.(totalRecords, uploadedRecords);
+          return;
+        }
+        addLog('error', errMsg);
+        setError(errMsg);
+        setIsProcessing(false);
+        return;
       }
-    } catch (_) {
-      // Fall through to simulation
+    } catch (err: any) {
+      addLog('warn', `Could not reach backend: ${err.message || err} — falling back to client simulation`);
     }
 
-    // ── Simulation (generates REAL clusters from uploaded data) ─────────────
-    runSimulation(totalRecords, uploadedRecords);
+    // ── Simulation (only if actual uploaded records exist!) ─────────────
+    if (totalRecords > 0) {
+      runSimulationRef.current?.(totalRecords, uploadedRecords);
+    } else {
+      setIsProcessing(false);
+      setError('No records available to process. Please upload a dataset first.');
+    }
   }, [connectWebSocket, loadUploadedRecords]);
 
   // ── Simulation ──────────────────────────────────────────────────────────
 
   const runSimulation = useCallback((totalRecords: number, rawRecords: Array<{ id: string; description: string; source_cpse_id: string }>) => {
+    if (totalRecords <= 0 || rawRecords.length === 0) {
+      setIsProcessing(false);
+      setError('No records available for simulation.');
+      return;
+    }
+
     addLog('info', `Simulation mode — ${totalRecords.toLocaleString()} records`);
 
     const steps: Array<{
@@ -893,10 +927,49 @@ export default function ProcessingPage() {
     simTimer.current = timer;
   }, [metrics, saveJobResult]);
 
-  // ── Auto-start on mount ──────────────────────────────────────────────────
+  // Keep the ref in sync so startPipeline can call the latest runSimulation
+  useEffect(() => {
+    runSimulationRef.current = runSimulation;
+  }, [runSimulation]);
+
+  // ── Auto-start on mount only if data is present ───────────────────────────
 
   useEffect(() => {
-    startPipeline();
+    const savedResultStr = sessionStorage.getItem('vertex_job_result');
+    const activeUploadId = sessionStorage.getItem('active_upload_id');
+    const uploadedRecords = loadUploadedRecords();
+
+    // Only restore a saved result if we still have an active upload session
+    // This prevents showing stale data when the user hasn't uploaded anything
+    if (savedResultStr && (activeUploadId || uploadedRecords.length > 0)) {
+      try {
+        const savedResult = JSON.parse(savedResultStr);
+        // Additional guard: only restore if the upload_id matches, or there are raw records
+        const savedUploadId = savedResult.upload_id;
+        const uploadIdMatches = !savedUploadId || savedUploadId === activeUploadId || uploadedRecords.length > 0;
+        if (uploadIdMatches) {
+          setJobResult(savedResult);
+          setJobId(savedResult.job_id);
+          if (savedResult.metrics) setMetrics(savedResult.metrics);
+          setIsDone(true);
+          setStageProgress({
+            preprocessing: { status: 'done', progress: 100, details: 'Preprocessing complete', items: savedResult.total_records },
+            embedding: { status: 'done', progress: 100, details: 'Embeddings & FAISS index built', items: savedResult.total_records },
+            clustering: { status: 'done', progress: 100, details: `${savedResult.clusters?.length || 0} clusters finalized`, items: savedResult.clusters?.length || 0 },
+            mapping: { status: 'done', progress: 100, details: 'Code mapping complete', items: savedResult.harmonized_records?.length || 0 },
+          });
+          addLog('info', `Loaded previous harmonization result (${savedResult.total_records} records, ${savedResult.clusters?.length || 0} clusters)`);
+          return;
+        }
+      } catch (_) {}
+    }
+
+    if (activeUploadId || uploadedRecords.length > 0) {
+      startPipeline();
+    } else {
+      addLog('info', 'No dataset loaded. Upload a CSV file or select a sample dataset to begin.');
+    }
+
     return () => {
       if (simTimer.current) clearInterval(simTimer.current);
       if (reconnectTimer.current) clearTimeout(reconnectTimer.current);
@@ -919,6 +992,12 @@ export default function ProcessingPage() {
   };
 
   // ── Derived ─────────────────────────────────────────────────────────────
+
+  const activeUploadId = sessionStorage.getItem('active_upload_id');
+  const uploadedRecords = loadUploadedRecords();
+  const datasetName = sessionStorage.getItem('vertex_dataset_name');
+  const datasetTotal = sessionStorage.getItem('vertex_dataset_total');
+  const hasData = Boolean(activeUploadId || uploadedRecords.length > 0 || isDone);
 
   const activeStage = STAGE_ORDER.find((key) => stageProgress[key].status === 'running') || null;
   const doneCount = STAGE_ORDER.filter((key) => stageProgress[key].status === 'done').length;
@@ -946,13 +1025,21 @@ export default function ProcessingPage() {
                   Complete
                 </span>
               )}
+              {!hasData && !isProcessing && !isDone && (
+                <span className="inline-flex items-center gap-1.5 text-xs font-medium text-amber-400 bg-amber-400/10 px-2.5 py-1 rounded-full">
+                  <AlertCircle size={12} />
+                  No Data
+                </span>
+              )}
             </div>
             <p className="text-secondary-400 text-sm">
               {isProcessing
                 ? `Running — ${metrics.total_records.toLocaleString()} records in pipeline`
                 : isDone
                 ? `Completed — ${jobResult?.clusters.length || 0} clusters found from ${metrics.total_records.toLocaleString()} records`
-                : 'Initializing...'}
+                : hasData
+                ? `Dataset loaded: ${datasetName || activeUploadId || 'Uploaded dataset'} (${uploadedRecords.length || datasetTotal || 0} records)`
+                : 'No dataset loaded — please upload a CSV file or select a sample dataset first'}
             </p>
           </div>
           <div className="text-right">
@@ -965,6 +1052,58 @@ export default function ProcessingPage() {
       </div>
 
       <div className="flex-1 overflow-auto p-8">
+        {/* Empty State Banner when no dataset is fed */}
+        {!hasData && !isProcessing && !isDone && (
+          <div className="mb-6 p-6 rounded-xl border border-secondary-700 bg-secondary-800/80 backdrop-blur-sm flex flex-col md:flex-row items-center justify-between gap-6 shadow-xl">
+            <div className="flex items-center gap-4">
+              <div className="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center flex-shrink-0">
+                <AlertCircle className="w-6 h-6 text-amber-400" />
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-white">No Dataset Uploaded</h3>
+                <p className="text-sm text-secondary-400 mt-0.5">
+                  No material records are loaded yet. Please upload a CSV/Excel file or choose a sample CPSE dataset from the Upload tab to start the harmonization pipeline.
+                </p>
+              </div>
+            </div>
+            <div className="flex items-center gap-3 flex-shrink-0">
+              <a
+                href="/upload"
+                className="px-5 py-2.5 bg-primary-600 hover:bg-primary-500 text-white text-sm font-medium rounded-lg transition-colors shadow-lg shadow-primary-900/30 flex items-center gap-2"
+              >
+                Go to Upload
+                <ChevronRight size={16} />
+              </a>
+            </div>
+          </div>
+        )}
+
+        {/* Dataset Ready Banner when data is loaded but pipeline hasn't been started */}
+        {hasData && !isProcessing && !isDone && (
+          <div className="mb-6 p-6 rounded-xl border border-blue-500/30 bg-blue-500/10 flex flex-col md:flex-row items-center justify-between gap-6 shadow-xl">
+            <div className="flex items-center gap-4">
+              <div className="w-12 h-12 rounded-xl bg-blue-500/20 flex items-center justify-center flex-shrink-0">
+                <Database className="w-6 h-6 text-blue-400" />
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-white">
+                  Dataset Ready: {datasetName || activeUploadId || 'Uploaded Dataset'}
+                </h3>
+                <p className="text-sm text-secondary-400 mt-0.5">
+                  {uploadedRecords.length || datasetTotal || 0} records loaded and ready for cleaning, vector embedding, clustering, and standard code mapping.
+                </p>
+              </div>
+            </div>
+            <button
+              onClick={() => startPipeline()}
+              className="px-6 py-2.5 bg-blue-600 hover:bg-blue-500 text-white text-sm font-medium rounded-lg transition-colors shadow-lg shadow-blue-900/30 flex items-center gap-2 flex-shrink-0"
+            >
+              <Zap size={16} />
+              Start Pipeline
+            </button>
+          </div>
+        )}
+
         {/* Stage cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
           {STAGE_ORDER.map((key) => (

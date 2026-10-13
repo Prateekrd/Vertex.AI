@@ -60,6 +60,7 @@ app.include_router(search.router, prefix="/api/v1/search", tags=["search"])
 app.include_router(standard_codes_router, prefix="/api/v1/codes", tags=["codes"])
 
 
+
 @app.get("/")
 def read_root():
     return {"message": "SIH 26099 Material Harmonization API", "version": "0.1.0"}

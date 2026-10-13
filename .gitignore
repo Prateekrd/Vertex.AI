@@ -26,6 +26,7 @@ coverage.xml
 .hypothesis/
 
 # Type checking & Linters
+*.tsbuildinfo
 .mypy_cache/
 .dmypy.json
 dmypy.json

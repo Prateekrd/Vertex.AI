@@ -89,22 +89,24 @@ export default function UploadPage() {
       } catch (e) {
         console.warn('Failed to save raw records:', e);
       }
+
+      // Auto-upload to backend so the processing pipeline can access the file
+      handleUpload(file);
     };
     reader.readAsText(file);
   };
 
-  const handleUpload = async () => {
-    if (!uploadedFile) return;
+  const handleUpload = async (file: File) => {
     setIsUploading(true);
     setError(null);
     try {
-      const res = await uploadAPI.uploadFile(uploadedFile);
+      const res = await uploadAPI.uploadFile(file);
       setUploadResult(res.data);
       if (res.data?.upload_id) {
         sessionStorage.setItem('active_upload_id', res.data.upload_id);
       }
     } catch (err: any) {
-      setError(err.message || 'Upload failed');
+      setError(err.message || 'Upload failed. Check that the backend is running.');
     } finally {
       setIsUploading(false);
     }
@@ -143,6 +145,8 @@ export default function UploadPage() {
           raw: res.data.first_record,
         });
       }
+      const effectiveUploadId = res.data.upload_id || sampleId;
+      sessionStorage.setItem('active_upload_id', effectiveUploadId);
       sessionStorage.setItem('vertex_raw_records', JSON.stringify(normalized));
       sessionStorage.setItem('vertex_dataset_name', sample?.file || sampleId);
       sessionStorage.setItem('vertex_dataset_total', String(res.data.total_records));
@@ -262,8 +266,16 @@ export default function UploadPage() {
         </div>
       </div>
 
+      {/* Uploading indicator */}
+      {isUploading && (
+        <div className="mt-4 p-4 bg-primary-500/10 border border-primary-500/30 rounded-lg flex items-center gap-3">
+          <div className="w-5 h-5 border-2 border-primary-400 border-t-transparent rounded-full animate-spin" />
+          <p className="text-primary-300">Uploading to server…</p>
+        </div>
+      )}
+
       {/* Upload Result & Process Button */}
-      {uploadResult && (
+      {uploadResult && !isUploading && (
         <div className="mt-8 p-6 bg-secondary-800 rounded-lg border border-secondary-700">
           <div className="flex items-center gap-3 mb-4">
             <CheckCircle className="w-5 h-5 text-success-500" />
@@ -279,6 +291,13 @@ export default function UploadPage() {
           {canProcess && (
             <button
               onClick={() => {
+                // Clear stale job result so Process tab starts fresh
+                sessionStorage.removeItem('vertex_job_result');
+                sessionStorage.removeItem('vertex_job_id');
+                sessionStorage.removeItem('vertex_metrics');
+                sessionStorage.removeItem('vertex_review_queue');
+                sessionStorage.removeItem('vertex_harmonized');
+                sessionStorage.removeItem('vertex_clusters');
                 // Navigate to process page
                 window.location.href = '/process';
               }}

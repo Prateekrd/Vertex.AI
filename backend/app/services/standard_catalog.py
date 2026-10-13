@@ -211,32 +211,30 @@ class StandardCodeCatalog:
     """Reference catalog for mapping harmonized clusters to UNSPSC codes."""
 
     def __init__(self):
-        self._model = SentenceTransformer(settings.EMBEDDING_MODEL)
         self._embeddings: Optional[np.ndarray] = None
         self._labels: List[str] = []
         self._codes: List[str] = []
-        self._build_index()
 
-    def _build_index(self) -> None:
+    def _ensure_index(self) -> None:
+        if self._embeddings is not None:
+            return
+        from app.services.embedding import get_embedding_service
         labels = [c["label"] for c in STANDARD_CODES]
         self._labels = labels
         self._codes = [c["code"] for c in STANDARD_CODES]
-        self._embeddings = self._model.encode(labels, convert_to_numpy=True, show_progress_bar=False)
-        norms = np.linalg.norm(self._embeddings, axis=1, keepdims=True)
-        norms[norms == 0] = 1
-        self._embeddings = (self._embeddings / norms).astype(np.float32)
+        es = get_embedding_service()
+        self._embeddings = es.encode(labels, normalize=True)
 
     def find_closest(self, description: str, cluster_embedding: Optional[np.ndarray] = None, top_k: int = 3) -> List[Dict[str, Any]]:
         """Find closest standard codes for a description."""
+        self._ensure_index()
         if cluster_embedding is not None:
             query = cluster_embedding.reshape(1, -1)
         else:
-            query = self._model.encode([description], convert_to_numpy=True, show_progress_bar=False)
-            norms = np.linalg.norm(query, axis=1, keepdims=True)
-            norms[norms == 0] = 1
-            query = (query / norms).astype(np.float32)
+            from app.services.embedding import get_embedding_service
+            query = get_embedding_service().encode([description], normalize=True)
 
-        scores, idxs = self._embeddings.dot(query.T).T[0], None
+        scores = self._embeddings.dot(query.T).T[0]
         top_indices = np.argsort(scores)[::-1][:top_k]
         return [
             {"code": self._codes[i], "label": self._labels[i], "score": float(scores[i])}
